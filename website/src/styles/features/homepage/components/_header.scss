@@ -1,1 +1,7 @@
-.header {}
+.header {
+	padding: 1rem 0;
+
+	&_container {
+		@extend .container;
+	}
+}
