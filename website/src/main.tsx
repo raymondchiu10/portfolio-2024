@@ -5,7 +5,7 @@ import { router } from './utils/router';
 import {
   RouterProvider,
 } from "react-router-dom";
-
+import { ScrollRestoration } from "react-router-dom";
 
 
 ReactDOM.createRoot(document.getElementById('root')!).render(

@@ -1,0 +1,22 @@
+.hero {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	min-height: 700px;
+	border: 1px solid red;
+
+	&_container {
+		max-width: 768px;
+
+		&_header {
+			font-size: 2rem;
+			line-height: 2;
+		}
+
+		&_subheader {
+			font-size: 2.5rem;
+		}
+	}
+}

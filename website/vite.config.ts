@@ -26,4 +26,4 @@ export default defineConfig({
     strictPort: true,
     port: 8080 // This is the port which we will use in docker
   }
-})
+});

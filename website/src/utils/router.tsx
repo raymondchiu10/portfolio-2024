@@ -1,9 +1,26 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter, Navigate } from "react-router-dom";
 import { Homepage } from "../features/homepage/routes/Homepage";
+import { Root } from "./Root";
 
 export const router = createBrowserRouter([
 	{
 		path: "/",
-		element: <Homepage />,
+		element: <Root />,
+		children: [
+			{
+				path: "/",
+				index: true,
+				element: <Homepage />,
+			},
+		],
+	},
+	{
+		path: "/*",
+		element: (
+			<Navigate
+				to="/"
+				replace={true}
+			/>
+		),
 	},
 ]);

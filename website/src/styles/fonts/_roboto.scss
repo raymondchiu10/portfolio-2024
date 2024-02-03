@@ -1,9 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@font-face {
+	font-family: "Roboto";
+	src: url("./Roboto/Roboto-Regular.ttf") format("truettype");
+	font-weight: normal;
+}
 
 @mixin roboto_base($font-weight: 400) {
 	font-family: Roboto, sans-serif;
 	font-style: normal;
-	font-weight: $font-weight !important;
 }
 
 .roboto {
