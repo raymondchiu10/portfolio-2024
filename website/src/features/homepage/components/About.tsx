@@ -33,7 +33,10 @@ export const About = () => {
 		const updatedString = item.slice(startString + startWord.length, endString).split("_").join(" ");
 
 		return (
-			<div className="about_carousel_item">
+			<div
+				key={updatedString}
+				className="about_carousel_item"
+			>
 				<img
 					src={item}
 					alt={updatedString}
@@ -51,13 +54,13 @@ export const About = () => {
 			<div className="about_carousel">
 				<Carousel
 					centerMode={true}
-					autoPlay={true}
-					swipeable={true}
 					infiniteLoop={true}
+					autoPlay={true}
 					interval={4000}
 					showArrows={true}
 					showIndicators={false}
 					stopOnHover={true}
+					swipeable={true}
 				>
 					{test.map(createSlide)}
 				</Carousel>

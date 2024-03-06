@@ -17,7 +17,7 @@ export function Header({ }: Props) {
 				<div className="header_container_links">
 					<Link to="/">Work</Link>
 					<Link to="/about">About</Link>
-					<Link to="/">Contact</Link>
+					{/* <Link to="/">Contact</Link> */}
 					<a href="https://www.linkedin.com/in/rachiu" target="_blank" rel="noopener noreferrer">
 						<div>
 							<FaLinkedinIn />
