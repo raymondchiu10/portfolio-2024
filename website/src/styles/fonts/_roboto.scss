@@ -1,0 +1,22 @@
+@font-face {
+	font-family: "Roboto";
+	src: url("./Roboto/Roboto-Regular.ttf") format("truettype");
+	font-weight: normal;
+}
+
+@mixin roboto_base($font-weight: 400) {
+	font-family: Roboto, sans-serif;
+	font-style: normal;
+}
+
+.roboto {
+	@include roboto_base;
+}
+
+.roboto-light {
+	@include roboto_base(300);
+}
+
+.roboto-bold {
+	@include roboto_base(700);
+}

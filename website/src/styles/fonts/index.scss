@@ -1,0 +1,27 @@
+@import "roboto";
+@import "archivo";
+
+a,
+p,
+span {
+	@extend .roboto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	@extend .archivo;
+	line-height: 1;
+}
+
+h1 {
+
+	font-size: x-large;
+
+	@media only screen and (min-width: 576px) {
+		font-size: xx-large;
+	}
+}

@@ -1,0 +1,22 @@
+@font-face {
+	font-family: "Archivo";
+	src: url("./Archivo/Archivo-VariableFont_wdth\,wght.ttf") format("truettype");
+	font-weight: normal;
+}
+
+@mixin archivo_base($font-weight: 400) {
+	font-family: Archivo, sans-serif;
+	font-style: normal;
+}
+
+.archivo {
+	@include archivo_base;
+}
+
+.archivo-light {
+	@include archivo_base(300);
+}
+
+.archivo-bold {
+	@include archivo_base(700);
+}
