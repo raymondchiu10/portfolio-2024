@@ -21,17 +21,11 @@ export default defineConfig({
     ]
   },
   server: {
-    proxy: {
-      "api/": {
-        target: "http://localhost:8080",
-        changeOrigin: true
-      }
-    },
     watch: {
       usePolling: true
     },
     host: true,
     strictPort: true,
-    port: 8080 // This is the port which we will use in docker
+    port: 8080
   }
 });
