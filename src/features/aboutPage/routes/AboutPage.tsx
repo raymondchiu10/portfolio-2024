@@ -1,5 +1,4 @@
 import profile from "@/images/arizona_profile.jpg";
-import { getSynonym } from "../../../apis/testAPI";
 
 export function AboutPage() {
 	const startDate = 2018;
