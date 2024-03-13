@@ -8,7 +8,7 @@ export function AboutPage() {
 		<section className="aboutPage">
 
 			<div className="aboutPage_profile">
-				<div className="aboutPage_profile_container" onClick={async () => getSynonym()}>
+				<div className="aboutPage_profile_container">
 					<img src={profile} alt="Raymond Chiu" />
 				</div>
 			</div>
