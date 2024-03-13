@@ -1,11 +1,8 @@
 import { FaLinkedinIn } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-interface Props {
 
-}
-
-export function Header({ }: Props) {
+export function Header() {
 	return (
 		<header className="header">
 			<div className="header_container">

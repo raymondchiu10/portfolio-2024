@@ -1,7 +1,4 @@
-interface Props {
-}
-
-export function Hero({ }: Props) {
+export function Hero() {
 	return (
 		<section className="hero">
 			<div className="hero_container">
