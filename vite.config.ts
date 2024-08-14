@@ -22,6 +22,14 @@ export default defineConfig({
 			src: "/src",
 		},
 	},
+	server: {
+		watch: {
+			usePolling: true,
+		},
+		host: true,
+		strictPort: true,
+		port: 8080,
+	},
 	test: {
 		globals: true,
 		environment: "jsdom",
