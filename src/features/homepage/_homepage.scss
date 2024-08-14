@@ -1,0 +1,6 @@
+@import "./components";
+
+.homepage {
+	@extends .container !optional;
+	position: relative;
+}

@@ -1,5 +1,5 @@
 .about {
-	@extend .container;
+	@extend .container !optional;
 
 	display: flex;
 	flex-direction: column;
@@ -31,7 +31,7 @@
 	}
 
 	&_carousel {
-		@extend .container;
+		@extend .container !optional;
 
 		width: 100%;
 		padding: 1rem 0;
