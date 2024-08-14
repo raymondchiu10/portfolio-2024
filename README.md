@@ -2,7 +2,7 @@
 
 This is just a showcase of some professional projects I have helped develop.
 
-Link to project: [here]()
+Link to project: [here](https://raymondchiu-portfolio.netlify.app/)
 
 # How it's made:
 
