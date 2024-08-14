@@ -2,21 +2,11 @@
 /// <reference types="vitest" />
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
-import { VitePluginRadar } from "vite-plugin-radar";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-	base: "/portfolio/",
-	plugins: [
-		react(),
-		VitePluginRadar({
-			gtm: [
-				{
-					id: "GTM-MFV2S2JJ",
-				},
-			],
-		}),
-	],
+	base: "/",
+	plugins: [react()],
 	resolve: {
 		alias: {
 			src: "/src",
