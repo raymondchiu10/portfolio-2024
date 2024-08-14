@@ -1,15 +1,15 @@
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import expopulus from "@/images/expopulus_screenshot.jpg";
-import dags from "@/images/expopulus_dags_screenshot.jpg";
-import finalForm from "@/images/expopulus_finalform_carousel_screenshot.jpg";
-import ironPigeons1 from "@/images/expopulus_ironpigeons_screenshot.jpg";
-import ironPigeons2 from "@/images/expopulus_ironpigeons_screenshot2.jpg";
-import frameOne1 from "@/images/frameonesoftware_screenshot.jpg";
-import frameOne2 from "@/images/frameonesoftware_screenshot2.jpg";
-import rxToMe from "@/images/rxtome_screenshot.jpg";
-import xaiGames1 from "@/images/xai_games_screenshot.jpg";
-import xaiGames2 from "@/images/xai_games_sentrynodes_screenshot.jpg";
+import expopulus from "src/images/expopulus_screenshot.jpg";
+import dags from "src/images/expopulus_dags_screenshot.jpg";
+import finalForm from "src/images/expopulus_finalform_carousel_screenshot.jpg";
+import ironPigeons1 from "src/images/expopulus_ironpigeons_screenshot.jpg";
+import ironPigeons2 from "src/images/expopulus_ironpigeons_screenshot2.jpg";
+import frameOne1 from "src/images/frameonesoftware_screenshot.jpg";
+import frameOne2 from "src/images/frameonesoftware_screenshot2.jpg";
+import rxToMe from "src/images/rxtome_screenshot.jpg";
+import xaiGames1 from "src/images/xai_games_screenshot.jpg";
+import xaiGames2 from "src/images/xai_games_sentrynodes_screenshot.jpg";
 
 const test = [
 	frameOne1,

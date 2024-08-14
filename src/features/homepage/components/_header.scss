@@ -7,7 +7,7 @@
 	z-index: 1;
 
 	&_container {
-		@extend .container;
+		@extend .container !optional;
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;

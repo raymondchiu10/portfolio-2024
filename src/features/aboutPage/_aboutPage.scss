@@ -1,5 +1,5 @@
 .aboutPage {
-	@extend .container;
+	@extend .container !optional;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
