@@ -1,4 +1,4 @@
-import profile from "@/images/arizona_profile.jpg";
+import profile from "src/images/arizona_profile.jpg";
 
 export function AboutPage() {
 	const startDate = 2018;

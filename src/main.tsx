@@ -1,13 +1,11 @@
 import "./styles/_index.scss";
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { router } from "./utils/router";
 import { RouterProvider } from "react-router-dom";
+import router from "./routing/Router";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
 	<React.StrictMode>
-		<main>
-			<RouterProvider router={router} />
-		</main>
+		<RouterProvider router={router} />
 	</React.StrictMode>,
 );
