@@ -8,7 +8,12 @@ Link to project: [here]()
 
 Tech used: HTML, CSS, Typescript, React/Vite
 
-Starting with [Vite](https://vitejs.dev) as the framework, I built out a simple website using HTML and [Typescript](https://www.typescriptlang.org), and styled and accounted for responsive design with vanilla [CSS/SCSS](https://sass-lang.com/documentation/syntax/). Used [react-icons](https://react-icons.github.io/react-icons/) for icons, as well as [react-responsive-carousel](https://github.com/leandrowd/react-responsive-carousel) for the project screenshot carousel. page routing done with [react-router](https://reactrouter.com/en/main).
+Starting with [Vite](https://vitejs.dev) as the framework, I built out a simple website using HTML and [Typescript](https://www.typescriptlang.org), and styled and accounted for responsive design with vanilla [CSS/SCSS](https://sass-lang.com/documentation/syntax/).
+
+-   Used [react-icons](https://react-icons.github.io/react-icons/) for icons
+-   [react-responsive-carousel](https://github.com/leandrowd/react-responsive-carousel) for the project screenshot carousel.
+-   For routing, the project uses [react-router-dom](https://reactrouter.com/en/main)
+-   For online hosting, this project uses [Netlify](https://www.netlify.com/).
 
 ## ESLint/TSLint configuration
 
