@@ -1,7 +1,6 @@
 import { FaLinkedinIn } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-
 export function Header() {
 	return (
 		<header className="header">
@@ -15,7 +14,11 @@ export function Header() {
 					<Link to="/">Work</Link>
 					<Link to="/about">About</Link>
 					{/* <Link to="/">Contact</Link> */}
-					<a href="https://www.linkedin.com/in/rachiu" target="_blank" rel="noopener noreferrer">
+					<a
+						href="https://www.linkedin.com/in/rachiu"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
 						<div>
 							<FaLinkedinIn />
 						</div>

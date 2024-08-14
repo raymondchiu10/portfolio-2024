@@ -22,11 +22,6 @@ export const router = createBrowserRouter([
 
 	{
 		path: "/*",
-		element: (
-			<Navigate
-				to="/"
-				replace={true}
-			/>
-		),
+		element: <Navigate to="/" replace={true} />,
 	},
 ]);
