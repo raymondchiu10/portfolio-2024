@@ -11,7 +11,7 @@ import rxToMe from "src/images/rxtome_screenshot.jpg";
 import xaiGames1 from "src/images/xai_games_screenshot.jpg";
 import xaiGames2 from "src/images/xai_games_sentrynodes_screenshot.jpg";
 
-const test = [
+const imageArray = [
 	frameOne1,
 	frameOne2,
 	expopulus,
@@ -60,7 +60,7 @@ const About = () => {
 					stopOnHover={true}
 					swipeable={true}
 				>
-					{test.map(createSlide)}
+					{imageArray.map(createSlide)}
 				</Carousel>
 			</div>
 		</section>
