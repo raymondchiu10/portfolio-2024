@@ -1,4 +1,4 @@
-export function Hero() {
+const Hero = () => {
 	return (
 		<section className="hero">
 			<div className="hero_container">
@@ -13,4 +13,6 @@ export function Hero() {
 			</div>
 		</section>
 	);
-}
+};
+
+export default Hero;

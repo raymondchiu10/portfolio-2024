@@ -1,6 +1,6 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`about page render > renders the page 1`] = `
+exports[`About Page > renders the page 1`] = `
 <DocumentFragment>
   <section
     class="aboutPage"

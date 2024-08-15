@@ -1,6 +1,6 @@
 import profile from "src/images/arizona_profile.jpg";
 
-export function AboutPage() {
+const AboutPage = () => {
 	const startDate = 2018;
 	const date = new Date().getFullYear();
 
@@ -8,10 +8,7 @@ export function AboutPage() {
 		<section className="aboutPage">
 			<div className="aboutPage_profile">
 				<div className="aboutPage_profile_container">
-					<img
-						src={profile}
-						alt="Raymond Chiu"
-					/>
+					<img src={profile} alt="Raymond Chiu" />
 				</div>
 			</div>
 
@@ -46,4 +43,6 @@ export function AboutPage() {
 			</div>
 		</section>
 	);
-}
+};
+
+export default AboutPage;

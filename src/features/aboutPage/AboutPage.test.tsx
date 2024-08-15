@@ -1,11 +1,10 @@
 import { describe, it, expect } from "vitest";
 import { render, screen } from "@testing-library/react";
-import { AboutPage } from "./AboutPage";
+import AboutPage from "./AboutPage";
 
-describe("about page render", () => {
-
+describe("About Page", () => {
 	it("renders the page", () => {
-		const {asFragment} = render(<AboutPage />);
+		const { asFragment } = render(<AboutPage />);
 		expect(asFragment()).toMatchSnapshot();
 	});
 
@@ -18,7 +17,6 @@ describe("about page render", () => {
 	it("renders the CTA link", () => {
 		render(<AboutPage />);
 		const linkElement = screen.getByText("LinkedIn");
-		console.log(linkElement);
 		expect(linkElement).toBeInTheDocument();
-	})
+	});
 });
