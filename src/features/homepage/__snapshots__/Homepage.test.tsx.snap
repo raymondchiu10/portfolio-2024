@@ -1,0 +1,377 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`home page render > renders the page 1`] = `
+<DocumentFragment>
+  <section
+    class="homepage"
+  >
+    <section
+      class="hero"
+    >
+      <div
+        class="hero_container"
+      >
+        <h2
+          class="hero_container_header"
+        >
+          Hey there, I'm Raymond
+        </h2>
+        <p
+          class="hero_container_subheader"
+        >
+          I'm a Fullstack Developer who enjoys frontend development and bringing experiences and ideas to life.
+        </p>
+      </div>
+    </section>
+    <section
+      class="about"
+    >
+      <div
+        class="about_container"
+      >
+        <h3
+          class="about_container_header"
+        >
+          Projects I have worked on:
+        </h3>
+      </div>
+      <div
+        class="about_carousel"
+      >
+        <div
+          class="carousel-root"
+        >
+          <div
+            class="carousel carousel-slider"
+            style="width: 100%;"
+          >
+            <button
+              aria-label="previous slide / item"
+              class="control-arrow control-prev"
+              type="button"
+            />
+            <div
+              class="slider-wrapper axis-horizontal"
+            >
+              <ul
+                class="slider animated"
+                style="transform: translate3d(-70%,0,0); transition-duration: 350ms;"
+              >
+                <li
+                  class="slide"
+                  style="min-width: 80%;"
+                >
+                  <div
+                    class="about_carousel_item"
+                  >
+                    <img
+                      alt="xai games sentrynodes screenshot"
+                      src="/src/images/xai_games_sentrynodes_screenshot.jpg"
+                    />
+                  </div>
+                </li>
+                <li
+                  class="slide selected previous"
+                  style="min-width: 80%;"
+                >
+                  <div
+                    class="about_carousel_item"
+                  >
+                    <img
+                      alt="frameonesoftware screenshot"
+                      src="/src/images/frameonesoftware_screenshot.jpg"
+                    />
+                  </div>
+                </li>
+                <li
+                  class="slide"
+                  style="min-width: 80%;"
+                >
+                  <div
+                    class="about_carousel_item"
+                  >
+                    <img
+                      alt="frameonesoftware screenshot2"
+                      src="/src/images/frameonesoftware_screenshot2.jpg"
+                    />
+                  </div>
+                </li>
+                <li
+                  class="slide"
+                  style="min-width: 80%;"
+                >
+                  <div
+                    class="about_carousel_item"
+                  >
+                    <img
+                      alt="expopulus screenshot"
+                      src="/src/images/expopulus_screenshot.jpg"
+                    />
+                  </div>
+                </li>
+                <li
+                  class="slide"
+                  style="min-width: 80%;"
+                >
+                  <div
+                    class="about_carousel_item"
+                  >
+                    <img
+                      alt="expopulus dags screenshot"
+                      src="/src/images/expopulus_dags_screenshot.jpg"
+                    />
+                  </div>
+                </li>
+                <li
+                  class="slide"
+                  style="min-width: 80%;"
+                >
+                  <div
+                    class="about_carousel_item"
+                  >
+                    <img
+                      alt="expopulus finalform carousel screenshot"
+                      src="/src/images/expopulus_finalform_carousel_screenshot.jpg"
+                    />
+                  </div>
+                </li>
+                <li
+                  class="slide"
+                  style="min-width: 80%;"
+                >
+                  <div
+                    class="about_carousel_item"
+                  >
+                    <img
+                      alt="expopulus ironpigeons screenshot"
+                      src="/src/images/expopulus_ironpigeons_screenshot.jpg"
+                    />
+                  </div>
+                </li>
+                <li
+                  class="slide"
+                  style="min-width: 80%;"
+                >
+                  <div
+                    class="about_carousel_item"
+                  >
+                    <img
+                      alt="expopulus ironpigeons screenshot2"
+                      src="/src/images/expopulus_ironpigeons_screenshot2.jpg"
+                    />
+                  </div>
+                </li>
+                <li
+                  class="slide"
+                  style="min-width: 80%;"
+                >
+                  <div
+                    class="about_carousel_item"
+                  >
+                    <img
+                      alt="rxtome screenshot"
+                      src="/src/images/rxtome_screenshot.jpg"
+                    />
+                  </div>
+                </li>
+                <li
+                  class="slide"
+                  style="min-width: 80%;"
+                >
+                  <div
+                    class="about_carousel_item"
+                  >
+                    <img
+                      alt="xai games screenshot"
+                      src="/src/images/xai_games_screenshot.jpg"
+                    />
+                  </div>
+                </li>
+                <li
+                  class="slide"
+                  style="min-width: 80%;"
+                >
+                  <div
+                    class="about_carousel_item"
+                  >
+                    <img
+                      alt="xai games sentrynodes screenshot"
+                      src="/src/images/xai_games_sentrynodes_screenshot.jpg"
+                    />
+                  </div>
+                </li>
+                <li
+                  class="slide selected previous"
+                  style="min-width: 80%;"
+                >
+                  <div
+                    class="about_carousel_item"
+                  >
+                    <img
+                      alt="frameonesoftware screenshot"
+                      src="/src/images/frameonesoftware_screenshot.jpg"
+                    />
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <button
+              aria-label="next slide / item"
+              class="control-arrow control-next"
+              type="button"
+            />
+            <p
+              class="carousel-status"
+            >
+              1 of 10
+            </p>
+          </div>
+          <div
+            class="carousel"
+          >
+            <div
+              class="thumbs-wrapper axis-vertical"
+            >
+              <button
+                aria-label="previous slide / item"
+                class="control-arrow control-prev control-disabled"
+                type="button"
+              />
+              <ul
+                class="thumbs animated"
+                style="transform: translate3d(0,0,0); transition-duration: 350ms;"
+              >
+                <li
+                  aria-label="slide item 1"
+                  class="thumb selected"
+                  role="button"
+                  style="width: 80px;"
+                  tabindex="0"
+                >
+                  <img
+                    alt="frameonesoftware screenshot"
+                    src="/src/images/frameonesoftware_screenshot.jpg"
+                  />
+                </li>
+                <li
+                  aria-label="slide item 2"
+                  class="thumb"
+                  role="button"
+                  style="width: 80px;"
+                  tabindex="0"
+                >
+                  <img
+                    alt="frameonesoftware screenshot2"
+                    src="/src/images/frameonesoftware_screenshot2.jpg"
+                  />
+                </li>
+                <li
+                  aria-label="slide item 3"
+                  class="thumb"
+                  role="button"
+                  style="width: 80px;"
+                  tabindex="0"
+                >
+                  <img
+                    alt="expopulus screenshot"
+                    src="/src/images/expopulus_screenshot.jpg"
+                  />
+                </li>
+                <li
+                  aria-label="slide item 4"
+                  class="thumb"
+                  role="button"
+                  style="width: 80px;"
+                  tabindex="0"
+                >
+                  <img
+                    alt="expopulus dags screenshot"
+                    src="/src/images/expopulus_dags_screenshot.jpg"
+                  />
+                </li>
+                <li
+                  aria-label="slide item 5"
+                  class="thumb"
+                  role="button"
+                  style="width: 80px;"
+                  tabindex="0"
+                >
+                  <img
+                    alt="expopulus finalform carousel screenshot"
+                    src="/src/images/expopulus_finalform_carousel_screenshot.jpg"
+                  />
+                </li>
+                <li
+                  aria-label="slide item 6"
+                  class="thumb"
+                  role="button"
+                  style="width: 80px;"
+                  tabindex="0"
+                >
+                  <img
+                    alt="expopulus ironpigeons screenshot"
+                    src="/src/images/expopulus_ironpigeons_screenshot.jpg"
+                  />
+                </li>
+                <li
+                  aria-label="slide item 7"
+                  class="thumb"
+                  role="button"
+                  style="width: 80px;"
+                  tabindex="0"
+                >
+                  <img
+                    alt="expopulus ironpigeons screenshot2"
+                    src="/src/images/expopulus_ironpigeons_screenshot2.jpg"
+                  />
+                </li>
+                <li
+                  aria-label="slide item 8"
+                  class="thumb"
+                  role="button"
+                  style="width: 80px;"
+                  tabindex="0"
+                >
+                  <img
+                    alt="rxtome screenshot"
+                    src="/src/images/rxtome_screenshot.jpg"
+                  />
+                </li>
+                <li
+                  aria-label="slide item 9"
+                  class="thumb"
+                  role="button"
+                  style="width: 80px;"
+                  tabindex="0"
+                >
+                  <img
+                    alt="xai games screenshot"
+                    src="/src/images/xai_games_screenshot.jpg"
+                  />
+                </li>
+                <li
+                  aria-label="slide item 10"
+                  class="thumb"
+                  role="button"
+                  style="width: 80px;"
+                  tabindex="0"
+                >
+                  <img
+                    alt="xai games sentrynodes screenshot"
+                    src="/src/images/xai_games_sentrynodes_screenshot.jpg"
+                  />
+                </li>
+              </ul>
+              <button
+                aria-label="next slide / item"
+                class="control-arrow control-next"
+                type="button"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+</DocumentFragment>
+`;

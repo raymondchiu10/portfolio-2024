@@ -1,6 +1,6 @@
 import profile from "src/images/arizona_profile.jpg";
 
-export function AboutPage() {
+const AboutPage = () => {
 	const startDate = 2018;
 	const date = new Date().getFullYear();
 
@@ -43,4 +43,6 @@ export function AboutPage() {
 			</div>
 		</section>
 	);
-}
+};
+
+export default AboutPage;
