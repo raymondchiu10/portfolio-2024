@@ -27,3 +27,6 @@ dist-ssr
 *.sw?
 # Local Netlify folder
 .netlify
+
+# Testing folders
+coverage
