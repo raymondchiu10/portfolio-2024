@@ -20,7 +20,7 @@ const Header = () => {
 						rel="noopener noreferrer"
 					>
 						<div>
-							<Linkedin />
+							<Linkedin aria-label="linkedin"/>
 						</div>
 					</a>
 				</div>
