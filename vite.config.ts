@@ -2,15 +2,19 @@
 /// <reference types="vitest" />
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
+import svgr from "vite-plugin-svgr";
 
 // https://vitejs.dev/config/
 export default defineConfig({
 	base: "/",
-	plugins: [react()],
+	plugins: [react(), svgr()],
 	resolve: {
 		alias: {
 			src: "/src",
 		},
+	},
+	build: {
+		minify: 'esbuild', // This is the default, but you can specify it explicitly
 	},
 	server: {
 		watch: {

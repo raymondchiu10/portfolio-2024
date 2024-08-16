@@ -11,6 +11,17 @@ import rxToMe from "src/images/rxtome_screenshot.jpg";
 import xaiGames1 from "src/images/xai_games_screenshot.jpg";
 import xaiGames2 from "src/images/xai_games_sentrynodes_screenshot.jpg";
 
+import expopuluswebp from "src/images/expopulus_screenshot.webp";
+import dagswebp from "src/images/expopulus_dags_screenshot.webp";
+import finalFormwebp from "src/images/expopulus_finalform_carousel_screenshot.webp";
+import ironPigeons1webp from "src/images/expopulus_ironpigeons_screenshot.webp";
+import ironPigeons2webp from "src/images/expopulus_ironpigeons_screenshot2.webp";
+import frameOne1webp from "src/images/frameonesoftware_screenshot.webp";
+import frameOne2webp from "src/images/frameonesoftware_screenshot2.webp";
+import rxToMewebp from "src/images/rxtome_screenshot.webp";
+import xaiGames1webp from "src/images/xai_games_screenshot.webp";
+import xaiGames2webp from "src/images/xai_games_sentrynodes_screenshot.webp";
+
 const imageArray = [
 	frameOne1,
 	frameOne2,
@@ -24,8 +35,21 @@ const imageArray = [
 	xaiGames2,
 ];
 
+const imageArrayWebp = [
+	frameOne1webp,
+	frameOne2webp,
+	expopuluswebp,
+	dagswebp,
+	finalFormwebp,
+	ironPigeons1webp,
+	ironPigeons2webp,
+	rxToMewebp,
+	xaiGames1webp,
+	xaiGames2webp,
+];
+
 const About = () => {
-	function createSlide(item: string) {
+	function createSlide(item: string, index: number) {
 		const startWord = "images/";
 		const startString = item.indexOf(startWord);
 		const endString = item.indexOf(".jpg");
@@ -36,7 +60,11 @@ const About = () => {
 
 		return (
 			<div key={updatedString} className="about_carousel_item">
-				<img src={item} alt={updatedString} />
+				<picture>
+					<source srcSet={imageArrayWebp[index]} type="image/webp"/>
+					<source srcSet={item} type="image/jpeg"/>
+					<img src={item} alt={updatedString} />
+				</picture>
 			</div>
 		);
 	}
