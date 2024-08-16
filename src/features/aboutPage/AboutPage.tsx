@@ -1,4 +1,5 @@
 import profile from "src/images/arizona_profile.jpg";
+import profilewebp from "src/images/arizona_profile.webp";
 
 const AboutPage = () => {
 	const startDate = 2018;
@@ -8,7 +9,11 @@ const AboutPage = () => {
 		<section className="aboutPage">
 			<div className="aboutPage_profile">
 				<div className="aboutPage_profile_container">
-					<img src={profile} alt="Raymond Chiu" />
+					<picture>
+						<source srcSet={profilewebp} type="image/webp"/>
+						<source srcSet={profile} type="image/jpeg"/>
+						<img src={profile} alt="Raymond Chiu" />
+					</picture>
 				</div>
 			</div>
 
