@@ -64,10 +64,20 @@ exports[`home page render > renders the page 1`] = `
                   <div
                     class="about_carousel_item"
                   >
-                    <img
-                      alt="xai games sentrynodes screenshot"
-                      src="/src/images/xai_games_sentrynodes_screenshot.jpg"
-                    />
+                    <picture>
+                      <source
+                        srcset="/src/images/webp/xai_games_sentrynodes_screenshot.webp"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="/src/images/jpg/xai_games_sentrynodes_screenshot.jpg"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="jpg/xai games sentrynodes screenshot"
+                        src="/src/images/jpg/xai_games_sentrynodes_screenshot.jpg"
+                      />
+                    </picture>
                   </div>
                 </li>
                 <li
@@ -77,10 +87,20 @@ exports[`home page render > renders the page 1`] = `
                   <div
                     class="about_carousel_item"
                   >
-                    <img
-                      alt="frameonesoftware screenshot"
-                      src="/src/images/frameonesoftware_screenshot.jpg"
-                    />
+                    <picture>
+                      <source
+                        srcset="/src/images/webp/frameonesoftware_screenshot.webp"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="/src/images/jpg/frameonesoftware_screenshot.jpg"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="jpg/frameonesoftware screenshot"
+                        src="/src/images/jpg/frameonesoftware_screenshot.jpg"
+                      />
+                    </picture>
                   </div>
                 </li>
                 <li
@@ -90,10 +110,20 @@ exports[`home page render > renders the page 1`] = `
                   <div
                     class="about_carousel_item"
                   >
-                    <img
-                      alt="frameonesoftware screenshot2"
-                      src="/src/images/frameonesoftware_screenshot2.jpg"
-                    />
+                    <picture>
+                      <source
+                        srcset="/src/images/webp/frameonesoftware_screenshot2.webp"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="/src/images/jpg/frameonesoftware_screenshot2.jpg"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="jpg/frameonesoftware screenshot2"
+                        src="/src/images/jpg/frameonesoftware_screenshot2.jpg"
+                      />
+                    </picture>
                   </div>
                 </li>
                 <li
@@ -103,10 +133,20 @@ exports[`home page render > renders the page 1`] = `
                   <div
                     class="about_carousel_item"
                   >
-                    <img
-                      alt="expopulus screenshot"
-                      src="/src/images/expopulus_screenshot.jpg"
-                    />
+                    <picture>
+                      <source
+                        srcset="/src/images/webp/expopulus_screenshot.webp"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="/src/images/jpg/expopulus_screenshot.jpg"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="jpg/expopulus screenshot"
+                        src="/src/images/jpg/expopulus_screenshot.jpg"
+                      />
+                    </picture>
                   </div>
                 </li>
                 <li
@@ -116,10 +156,20 @@ exports[`home page render > renders the page 1`] = `
                   <div
                     class="about_carousel_item"
                   >
-                    <img
-                      alt="expopulus dags screenshot"
-                      src="/src/images/expopulus_dags_screenshot.jpg"
-                    />
+                    <picture>
+                      <source
+                        srcset="/src/images/webp/expopulus_dags_screenshot.webp"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="/src/images/jpg/expopulus_dags_screenshot.jpg"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="jpg/expopulus dags screenshot"
+                        src="/src/images/jpg/expopulus_dags_screenshot.jpg"
+                      />
+                    </picture>
                   </div>
                 </li>
                 <li
@@ -129,10 +179,20 @@ exports[`home page render > renders the page 1`] = `
                   <div
                     class="about_carousel_item"
                   >
-                    <img
-                      alt="expopulus finalform carousel screenshot"
-                      src="/src/images/expopulus_finalform_carousel_screenshot.jpg"
-                    />
+                    <picture>
+                      <source
+                        srcset="/src/images/webp/expopulus_finalform_carousel_screenshot.webp"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="/src/images/jpg/expopulus_finalform_carousel_screenshot.jpg"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="jpg/expopulus finalform carousel screenshot"
+                        src="/src/images/jpg/expopulus_finalform_carousel_screenshot.jpg"
+                      />
+                    </picture>
                   </div>
                 </li>
                 <li
@@ -142,10 +202,20 @@ exports[`home page render > renders the page 1`] = `
                   <div
                     class="about_carousel_item"
                   >
-                    <img
-                      alt="expopulus ironpigeons screenshot"
-                      src="/src/images/expopulus_ironpigeons_screenshot.jpg"
-                    />
+                    <picture>
+                      <source
+                        srcset="/src/images/webp/expopulus_ironpigeons_screenshot.webp"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="/src/images/jpg/expopulus_ironpigeons_screenshot.jpg"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="jpg/expopulus ironpigeons screenshot"
+                        src="/src/images/jpg/expopulus_ironpigeons_screenshot.jpg"
+                      />
+                    </picture>
                   </div>
                 </li>
                 <li
@@ -155,10 +225,20 @@ exports[`home page render > renders the page 1`] = `
                   <div
                     class="about_carousel_item"
                   >
-                    <img
-                      alt="expopulus ironpigeons screenshot2"
-                      src="/src/images/expopulus_ironpigeons_screenshot2.jpg"
-                    />
+                    <picture>
+                      <source
+                        srcset="/src/images/webp/expopulus_ironpigeons_screenshot2.webp"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="/src/images/jpg/expopulus_ironpigeons_screenshot2.jpg"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="jpg/expopulus ironpigeons screenshot2"
+                        src="/src/images/jpg/expopulus_ironpigeons_screenshot2.jpg"
+                      />
+                    </picture>
                   </div>
                 </li>
                 <li
@@ -168,10 +248,20 @@ exports[`home page render > renders the page 1`] = `
                   <div
                     class="about_carousel_item"
                   >
-                    <img
-                      alt="rxtome screenshot"
-                      src="/src/images/rxtome_screenshot.jpg"
-                    />
+                    <picture>
+                      <source
+                        srcset="/src/images/webp/rxtome_screenshot.webp"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="/src/images/jpg/rxtome_screenshot.jpg"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="jpg/rxtome screenshot"
+                        src="/src/images/jpg/rxtome_screenshot.jpg"
+                      />
+                    </picture>
                   </div>
                 </li>
                 <li
@@ -181,10 +271,20 @@ exports[`home page render > renders the page 1`] = `
                   <div
                     class="about_carousel_item"
                   >
-                    <img
-                      alt="xai games screenshot"
-                      src="/src/images/xai_games_screenshot.jpg"
-                    />
+                    <picture>
+                      <source
+                        srcset="/src/images/webp/xai_games_screenshot.webp"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="/src/images/jpg/xai_games_screenshot.jpg"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="jpg/xai games screenshot"
+                        src="/src/images/jpg/xai_games_screenshot.jpg"
+                      />
+                    </picture>
                   </div>
                 </li>
                 <li
@@ -194,10 +294,20 @@ exports[`home page render > renders the page 1`] = `
                   <div
                     class="about_carousel_item"
                   >
-                    <img
-                      alt="xai games sentrynodes screenshot"
-                      src="/src/images/xai_games_sentrynodes_screenshot.jpg"
-                    />
+                    <picture>
+                      <source
+                        srcset="/src/images/webp/xai_games_sentrynodes_screenshot.webp"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="/src/images/jpg/xai_games_sentrynodes_screenshot.jpg"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="jpg/xai games sentrynodes screenshot"
+                        src="/src/images/jpg/xai_games_sentrynodes_screenshot.jpg"
+                      />
+                    </picture>
                   </div>
                 </li>
                 <li
@@ -207,10 +317,20 @@ exports[`home page render > renders the page 1`] = `
                   <div
                     class="about_carousel_item"
                   >
-                    <img
-                      alt="frameonesoftware screenshot"
-                      src="/src/images/frameonesoftware_screenshot.jpg"
-                    />
+                    <picture>
+                      <source
+                        srcset="/src/images/webp/frameonesoftware_screenshot.webp"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="/src/images/jpg/frameonesoftware_screenshot.jpg"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="jpg/frameonesoftware screenshot"
+                        src="/src/images/jpg/frameonesoftware_screenshot.jpg"
+                      />
+                    </picture>
                   </div>
                 </li>
               </ul>
@@ -240,131 +360,10 @@ exports[`home page render > renders the page 1`] = `
               <ul
                 class="thumbs animated"
                 style="transform: translate3d(0,0,0); transition-duration: 350ms;"
-              >
-                <li
-                  aria-label="slide item 1"
-                  class="thumb selected"
-                  role="button"
-                  style="width: 80px;"
-                  tabindex="0"
-                >
-                  <img
-                    alt="frameonesoftware screenshot"
-                    src="/src/images/frameonesoftware_screenshot.jpg"
-                  />
-                </li>
-                <li
-                  aria-label="slide item 2"
-                  class="thumb"
-                  role="button"
-                  style="width: 80px;"
-                  tabindex="0"
-                >
-                  <img
-                    alt="frameonesoftware screenshot2"
-                    src="/src/images/frameonesoftware_screenshot2.jpg"
-                  />
-                </li>
-                <li
-                  aria-label="slide item 3"
-                  class="thumb"
-                  role="button"
-                  style="width: 80px;"
-                  tabindex="0"
-                >
-                  <img
-                    alt="expopulus screenshot"
-                    src="/src/images/expopulus_screenshot.jpg"
-                  />
-                </li>
-                <li
-                  aria-label="slide item 4"
-                  class="thumb"
-                  role="button"
-                  style="width: 80px;"
-                  tabindex="0"
-                >
-                  <img
-                    alt="expopulus dags screenshot"
-                    src="/src/images/expopulus_dags_screenshot.jpg"
-                  />
-                </li>
-                <li
-                  aria-label="slide item 5"
-                  class="thumb"
-                  role="button"
-                  style="width: 80px;"
-                  tabindex="0"
-                >
-                  <img
-                    alt="expopulus finalform carousel screenshot"
-                    src="/src/images/expopulus_finalform_carousel_screenshot.jpg"
-                  />
-                </li>
-                <li
-                  aria-label="slide item 6"
-                  class="thumb"
-                  role="button"
-                  style="width: 80px;"
-                  tabindex="0"
-                >
-                  <img
-                    alt="expopulus ironpigeons screenshot"
-                    src="/src/images/expopulus_ironpigeons_screenshot.jpg"
-                  />
-                </li>
-                <li
-                  aria-label="slide item 7"
-                  class="thumb"
-                  role="button"
-                  style="width: 80px;"
-                  tabindex="0"
-                >
-                  <img
-                    alt="expopulus ironpigeons screenshot2"
-                    src="/src/images/expopulus_ironpigeons_screenshot2.jpg"
-                  />
-                </li>
-                <li
-                  aria-label="slide item 8"
-                  class="thumb"
-                  role="button"
-                  style="width: 80px;"
-                  tabindex="0"
-                >
-                  <img
-                    alt="rxtome screenshot"
-                    src="/src/images/rxtome_screenshot.jpg"
-                  />
-                </li>
-                <li
-                  aria-label="slide item 9"
-                  class="thumb"
-                  role="button"
-                  style="width: 80px;"
-                  tabindex="0"
-                >
-                  <img
-                    alt="xai games screenshot"
-                    src="/src/images/xai_games_screenshot.jpg"
-                  />
-                </li>
-                <li
-                  aria-label="slide item 10"
-                  class="thumb"
-                  role="button"
-                  style="width: 80px;"
-                  tabindex="0"
-                >
-                  <img
-                    alt="xai games sentrynodes screenshot"
-                    src="/src/images/xai_games_sentrynodes_screenshot.jpg"
-                  />
-                </li>
-              </ul>
+              />
               <button
                 aria-label="next slide / item"
-                class="control-arrow control-next"
+                class="control-arrow control-next control-disabled"
                 type="button"
               />
             </div>

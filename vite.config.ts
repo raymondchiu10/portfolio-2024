@@ -14,7 +14,7 @@ export default defineConfig({
 		},
 	},
 	build: {
-		minify: 'esbuild', // This is the default, but you can specify it explicitly
+		minify: "esbuild", // This is the default, but you can specify it explicitly
 	},
 	server: {
 		watch: {
