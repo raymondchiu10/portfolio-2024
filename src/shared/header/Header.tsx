@@ -1,8 +1,7 @@
 import { Link } from "react-router-dom";
-import Linkedin from 'src/svgs/linkedin.svg?react';
+import Linkedin from "src/svgs/linkedin.svg?react";
 
 const Header = () => {
-
 	return (
 		<header className="header">
 			<div className="header_container">
@@ -20,7 +19,7 @@ const Header = () => {
 						rel="noopener noreferrer"
 					>
 						<div>
-							<Linkedin aria-label="linkedin"/>
+							<Linkedin aria-label="linkedin" />
 						</div>
 					</a>
 				</div>
