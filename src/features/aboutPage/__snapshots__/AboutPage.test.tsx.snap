@@ -11,10 +11,20 @@ exports[`About Page > renders the page 1`] = `
       <div
         class="aboutPage_profile_container"
       >
-        <img
-          alt="Raymond Chiu"
-          src="/src/images/arizona_profile.jpg"
-        />
+        <picture>
+          <source
+            srcset="/src/images/webp/arizona_profile.webp"
+            type="image/webp"
+          />
+          <source
+            srcset="/src/images/jpg/arizona_profile.jpg"
+            type="image/jpeg"
+          />
+          <img
+            alt="Raymond Chiu"
+            src="/src/images/jpg/arizona_profile.jpg"
+          />
+        </picture>
       </div>
     </div>
     <h2>
