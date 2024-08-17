@@ -2,7 +2,7 @@
 
 This is just a showcase of some professional projects I have helped develop.
 
-Link to project: [here](https://raymondchiu-portfolio.netlify.app/)
+Link to project: [here](https://raymondchiu-portfolio.netlify.app/).
 
 # How it's made:
 
@@ -12,7 +12,7 @@ Starting with [Vite](https://vitejs.dev) as the framework, I built out a simple 
 
 -   Used [react-icons](https://react-icons.github.io/react-icons/) for icons
 -   [react-responsive-carousel](https://github.com/leandrowd/react-responsive-carousel) for the project screenshot carousel.
--   For routing, the project uses [react-router-dom](https://reactrouter.com/en/main)
+-   For routing, the project uses [react-router-dom](https://reactrouter.com/en/main).
 -   For online hosting, this project uses [Netlify](https://www.netlify.com/).
 
 ## ESLint/TSLint configuration
