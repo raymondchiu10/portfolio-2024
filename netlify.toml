@@ -19,12 +19,4 @@
   #  port = 3000 # Port that the dev server will be listening on
   #  publish = "dist" # Folder with the static content for _redirect file
 
-# Optionally, you can add headers if needed
-[[headers]]
-  for = "/*"
-  [headers.values]
-    Cache-Control = "max-age=0, no-cache, no-store, must-revalidate"
-    Pragma = "no-cache"
-    Expires = "0"
-
   ## more info on configuring this file: https://ntl.fyi/file-based-build-config
