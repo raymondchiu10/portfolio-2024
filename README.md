@@ -13,6 +13,7 @@ Starting with [Vite](https://vitejs.dev) as the framework, I built out a simple 
 -   [react-responsive-carousel](https://github.com/leandrowd/react-responsive-carousel) for the project screenshot carousel.
 -   For routing, the project uses [react-router-dom](https://reactrouter.com/en/main).
 -   For online hosting, this project uses [Netlify](https://www.netlify.com/).
+-   For development, this project is using [Docker](https://docs.docker.com/).
 
 ## ESLint/TSLint configuration
 
@@ -41,3 +42,5 @@ Vite is very quick and snappy in comparison to [create-react-app](https://create
 -   install dependencies `npm install`
 -   run linter `npm run lint`
 -   run testing suite `npm run test`
+
+\*\* this project should be run with `docker-compose up --build`. for more information, read the [README.Docker.md](README.Docker.md), otherwise, run with `npm run dev`.
