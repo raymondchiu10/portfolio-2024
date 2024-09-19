@@ -1,5 +1,11 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from "swiper/modules";
+import {
+	Navigation,
+	Pagination,
+	Scrollbar,
+	A11y,
+	Autoplay,
+} from "swiper/modules";
 
 import "swiper/scss";
 import "swiper/scss/navigation";
@@ -64,10 +70,7 @@ const About = () => {
 			.join(" ");
 
 		return (
-			<SwiperSlide
-				key={updatedString}
-				className="about_carousel_item"
-			>
+			<SwiperSlide key={updatedString} className="about_carousel_item">
 				<picture>
 					<source srcSet={imageArrayWebp[index]} type="image/webp" />
 					<source srcSet={item} type="image/jpeg" />
@@ -87,8 +90,14 @@ const About = () => {
 
 			<div className="about_carousel">
 				<Swiper
-					modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
-					a11y={{enabled: true}}
+					modules={[
+						Navigation,
+						Pagination,
+						Scrollbar,
+						A11y,
+						Autoplay,
+					]}
+					a11y={{ enabled: true }}
 					spaceBetween={50}
 					slidesPerView={1}
 					navigation
