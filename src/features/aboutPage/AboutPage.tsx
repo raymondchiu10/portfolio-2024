@@ -17,7 +17,7 @@ const AboutPage = () => {
 				</div>
 			</div>
 
-			<h2>Hey there,</h2>
+			<h2>Hey there</h2>
 			<div className="aboutPage_body">
 				<p>
 					{

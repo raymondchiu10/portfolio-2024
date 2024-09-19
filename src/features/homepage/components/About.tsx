@@ -1,5 +1,10 @@
-import { Carousel } from "react-responsive-carousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
+
+import "swiper/scss";
+import "swiper/scss/navigation";
+import "swiper/scss/pagination";
+
 import expopulus from "src/images/jpg/expopulus_screenshot.jpg";
 import dags from "src/images/jpg/expopulus_dags_screenshot.jpg";
 import finalForm from "src/images/jpg/expopulus_finalform_carousel_screenshot.jpg";
@@ -50,7 +55,7 @@ const imageArrayWebp = [
 
 const About = () => {
 	function createSlide(item: string, index: number) {
-		const startWord = "images/";
+		const startWord = "jpg/";
 		const startString = item.indexOf(startWord);
 		const endString = item.indexOf(".jpg");
 		const updatedString = item
@@ -59,13 +64,16 @@ const About = () => {
 			.join(" ");
 
 		return (
-			<div key={updatedString} className="about_carousel_item">
+			<SwiperSlide
+				key={updatedString}
+				className="about_carousel_item"
+			>
 				<picture>
 					<source srcSet={imageArrayWebp[index]} type="image/webp" />
 					<source srcSet={item} type="image/jpeg" />
 					<img src={item} alt={updatedString} />
 				</picture>
-			</div>
+			</SwiperSlide>
 		);
 	}
 
@@ -78,18 +86,17 @@ const About = () => {
 			</div>
 
 			<div className="about_carousel">
-				<Carousel
-					centerMode={true}
-					infiniteLoop={true}
-					autoPlay={true}
-					interval={4000}
-					showArrows={true}
-					showIndicators={false}
-					stopOnHover={true}
-					swipeable={true}
+				<Swiper
+					modules={[Navigation, Pagination, Scrollbar, A11y]}
+					spaceBetween={50}
+					slidesPerView={1}
+					navigation
+					pagination={{ clickable: true }}
+					scrollbar={{ draggable: true }}
+					loop
 				>
 					{imageArray.map(createSlide)}
-				</Carousel>
+				</Swiper>
 			</div>
 		</section>
 	);
