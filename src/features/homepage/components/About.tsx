@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
+import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from "swiper/modules";
 
 import "swiper/scss";
 import "swiper/scss/navigation";
@@ -87,12 +87,17 @@ const About = () => {
 
 			<div className="about_carousel">
 				<Swiper
-					modules={[Navigation, Pagination, Scrollbar, A11y]}
+					modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
+					a11y={{enabled: true}}
 					spaceBetween={50}
 					slidesPerView={1}
 					navigation
 					pagination={{ clickable: true }}
 					scrollbar={{ draggable: true }}
+					autoplay={{
+						delay: 4000,
+						pauseOnMouseEnter: true,
+					}}
 					loop
 				>
 					{imageArray.map(createSlide)}
