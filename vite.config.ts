@@ -16,6 +16,13 @@ export default defineConfig({
 	build: {
 		minify: "esbuild", // This is the default, but you can specify it explicitly
 	},
+	css: {
+		preprocessorOptions: {
+			scss: {
+				silenceDeprecations: ["legacy-js-api"],
+			},
+		},
+	},
 	server: {
 		watch: {
 			usePolling: true,
