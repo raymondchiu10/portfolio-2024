@@ -10,7 +10,7 @@ Tech used: HTML, CSS, Typescript, React/Vite
 
 Starting with [Vite](https://vitejs.dev) as the framework, I built out a simple website using HTML and [Typescript](https://www.typescriptlang.org), and styled and accounted for responsive design with vanilla [CSS/SCSS](https://sass-lang.com/documentation/syntax/).
 
--   [react-responsive-carousel](https://github.com/leandrowd/react-responsive-carousel) for the project screenshot carousel.
+-   [swiper](https://swiperjs.com/) for the project screenshot carousel.
 -   For routing, the project uses [react-router-dom](https://reactrouter.com/en/main).
 -   For online hosting, this project uses [Netlify](https://www.netlify.com/).
 -   For development, this project is using [Docker](https://docs.docker.com/).
