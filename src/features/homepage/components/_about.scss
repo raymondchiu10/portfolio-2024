@@ -33,13 +33,12 @@
 	&_carousel {
 		@extend .container !optional;
 
-		padding: 1rem 0;
+		@media only screen and (min-width: 576px) {
+			border-radius: 1rem;
+			overflow: hidden;
+		}
 
 		&_item {
-			@media only screen and (min-width: 576px) {
-				border-radius: 1rem;
-				overflow: hidden;
-			}
 
 			& > picture {
 				aspect-ratio: 1;
