@@ -2,7 +2,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import {
 	Navigation,
 	Pagination,
-	Scrollbar,
 	A11y,
 	Autoplay,
 } from "swiper/modules";
@@ -21,6 +20,7 @@ import frameOne2 from "src/images/jpg/frameonesoftware_screenshot2.jpg";
 import rxToMe from "src/images/jpg/rxtome_screenshot.jpg";
 import xaiGames1 from "src/images/jpg/xai_games_screenshot.jpg";
 import xaiGames2 from "src/images/jpg/xai_games_sentrynodes_screenshot.jpg";
+import lolChampionViewer from "src/images/jpg/lol-champion-viewer_screenshot.jpg";
 
 import expopuluswebp from "src/images/webp/expopulus_screenshot.webp";
 import dagswebp from "src/images/webp/expopulus_dags_screenshot.webp";
@@ -32,6 +32,7 @@ import frameOne2webp from "src/images/webp/frameonesoftware_screenshot2.webp";
 import rxToMewebp from "src/images/webp/rxtome_screenshot.webp";
 import xaiGames1webp from "src/images/webp/xai_games_screenshot.webp";
 import xaiGames2webp from "src/images/webp/xai_games_sentrynodes_screenshot.webp";
+import lolChampionViewerwebp from "src/images/webp/lol-champion-viewer_screenshot.webp";
 
 const imageArray = [
 	frameOne1,
@@ -44,6 +45,7 @@ const imageArray = [
 	rxToMe,
 	xaiGames1,
 	xaiGames2,
+	lolChampionViewer
 ];
 
 const imageArrayWebp = [
@@ -57,6 +59,7 @@ const imageArrayWebp = [
 	rxToMewebp,
 	xaiGames1webp,
 	xaiGames2webp,
+	lolChampionViewerwebp
 ];
 
 const About = () => {
@@ -93,16 +96,15 @@ const About = () => {
 					modules={[
 						Navigation,
 						Pagination,
-						Scrollbar,
 						A11y,
 						Autoplay,
 					]}
 					a11y={{ enabled: true }}
+					centeredSlides={true}
 					spaceBetween={50}
 					slidesPerView={1}
 					navigation
 					pagination={{ clickable: true }}
-					scrollbar={{ draggable: true }}
 					autoplay={{
 						delay: 4000,
 						pauseOnMouseEnter: true,
