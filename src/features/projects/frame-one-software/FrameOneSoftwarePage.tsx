@@ -1,5 +1,5 @@
 const FrameOneSoftwarePage = () => {
-	return;
-}
+	return <></>;
+};
 
 export default FrameOneSoftwarePage;

@@ -33,7 +33,6 @@
 	&_carousel {
 		@extend .container;
 
-
 		background-color: black;
 		border: 0.25rem solid black;
 
@@ -43,15 +42,14 @@
 		}
 
 		&_item {
-
 			& > picture {
-			display: flex;
+				display: flex;
 
-			justify-content: center;
-			align-items: center;
-			max-height: 768px;
+				justify-content: center;
+				align-items: center;
+				max-height: 768px;
 
-			& source,
+				& source,
 				img {
 					width: 100%;
 					height: 100%;

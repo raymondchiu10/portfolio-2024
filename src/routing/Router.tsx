@@ -3,6 +3,10 @@ import Layout from "./Layout";
 import Homepage from "../features/homepage/Homepage";
 import AboutPage from "../features/aboutPage/AboutPage";
 import RxtomePage from "../features/projects/rxtome/RxtomePage";
+import ExpopulusPage from "../features/projects/expopulus/ExpopulusPage";
+import FrameOneSoftwarePage from "../features/projects/frame-one-software/FrameOneSoftwarePage";
+import XaiGamgesPage from "../features/projects/xai-games/XaiGamesPage";
+import LolChampionViewerPage from "../features/projects/lol-champion-viewer/LolChampionViewerPage";
 
 const router = createBrowserRouter([
 	{
@@ -29,11 +33,11 @@ const router = createBrowserRouter([
 		children: [
 			{
 				path: "expopulus",
-				element: <Homepage />,
+				element: <ExpopulusPage />,
 			},
 			{
-				path: "frameonesoftware",
-				element: <AboutPage />,
+				path: "frame-one-software",
+				element: <FrameOneSoftwarePage />,
 			},
 			{
 				path: "rxtome",
@@ -41,11 +45,11 @@ const router = createBrowserRouter([
 			},
 			{
 				path: "xai-games",
-				element: <AboutPage />,
+				element: <XaiGamgesPage />,
 			},
 			{
 				path: "lol-champion-viewer",
-				element: <AboutPage />,
+				element: <LolChampionViewerPage />,
 			},
 		],
 	},

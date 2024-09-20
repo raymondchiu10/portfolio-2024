@@ -1,5 +1,5 @@
 const LolChampionViewerPage = () => {
-	return;
-}
+	return <></>;
+};
 
 export default LolChampionViewerPage;

@@ -1,10 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import {
-	Navigation,
-	Pagination,
-	A11y,
-	Autoplay,
-} from "swiper/modules";
+import { Navigation, Pagination, A11y, Autoplay } from "swiper/modules";
 
 import "swiper/scss";
 import "swiper/scss/navigation";
@@ -32,7 +27,7 @@ import frameOne2webp from "src/images/webp/frame-one-software-2.webp";
 import rxToMewebp from "src/images/webp/rxtome.webp";
 import xaiGames1webp from "src/images/webp/xai-games.webp";
 import xaiGames2webp from "src/images/webp/xai-games_sentrynodes.webp";
-import lolChampionViewerwebp from "src/images/webp/lol-champion-viewer.webp"
+import lolChampionViewerwebp from "src/images/webp/lol-champion-viewer.webp";
 import { useNavigate } from "react-router-dom";
 
 const imageArray = [
@@ -66,7 +61,6 @@ const imageArrayWebp = [
 const About = () => {
 	const navigate = useNavigate();
 
-
 	function createSlide(item: string, index: number) {
 		const startWord = "jpg/";
 		const startString = item.indexOf(startWord);
@@ -76,15 +70,17 @@ const About = () => {
 			.split("_")
 			.join(" ");
 
-			const baseProject = "/projects/" + item
-			.slice(startString + startWord.length, endString)
-			.split("_")[0];
+		const baseProject =
+			"/projects/" +
+			item.slice(startString + startWord.length, endString).split("_")[0];
 
 		return (
 			<SwiperSlide
 				key={altString}
 				className="about_carousel_item"
-				onClick={() => {navigate(baseProject)}}
+				onClick={() => {
+					navigate(baseProject);
+				}}
 			>
 				<picture>
 					<source srcSet={imageArrayWebp[index]} type="image/webp" />
@@ -105,12 +101,7 @@ const About = () => {
 
 			<div className="about_carousel">
 				<Swiper
-					modules={[
-						Navigation,
-						Pagination,
-						A11y,
-						Autoplay,
-					]}
+					modules={[Navigation, Pagination, A11y, Autoplay]}
 					a11y={{ enabled: true }}
 					centeredSlides={true}
 					spaceBetween={50}

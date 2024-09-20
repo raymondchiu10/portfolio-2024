@@ -1,5 +1,5 @@
 const ExpopulusPage = () => {
-	return;
-}
+	return <></>;
+};
 
 export default ExpopulusPage;
