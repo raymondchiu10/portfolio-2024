@@ -1,5 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, A11y, Autoplay } from "swiper/modules";
+import { useNavigate } from "react-router-dom";
+import { fileNameParserJpg } from "../../../shared/fileNameParserJpg";
 
 import "swiper/scss";
 import "swiper/scss/navigation";
@@ -28,7 +30,6 @@ import rxToMewebp from "src/images/webp/rxtome.webp";
 import xaiGames1webp from "src/images/webp/xai-games.webp";
 import xaiGames2webp from "src/images/webp/xai-games_sentrynodes.webp";
 import lolChampionViewerwebp from "src/images/webp/lol-champion-viewer.webp";
-import { useNavigate } from "react-router-dom";
 
 const imageArray = [
 	frameOne1,
@@ -62,17 +63,7 @@ const About = () => {
 	const navigate = useNavigate();
 
 	function createSlide(item: string, index: number) {
-		const startWord = "jpg/";
-		const startString = item.indexOf(startWord);
-		const endString = item.indexOf(".jpg");
-		const altString = item
-			.slice(startString + startWord.length, endString)
-			.split("_")
-			.join(" ");
-
-		const baseProject =
-			"/projects/" +
-			item.slice(startString + startWord.length, endString).split("_")[0];
+		const {altString, baseProject} = fileNameParserJpg(item);
 
 		return (
 			<SwiperSlide
