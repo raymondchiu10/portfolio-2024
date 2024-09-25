@@ -11,11 +11,15 @@ export const fileNameParserJpg = (item: string) => {
 		"/projects/" +
 		item.slice(startString + startWord.length, endString).split("_")[0];
 
-	const projectName = item.slice(startString + startWord.length, endString).split("_")[0].split("-").join(" ");
+	const projectName = item
+		.slice(startString + startWord.length, endString)
+		.split("_")[0]
+		.split("-")
+		.join(" ");
 
 	return {
 		altString,
 		baseProject,
-		projectName
-	}
-}
+		projectName,
+	};
+};

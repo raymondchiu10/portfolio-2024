@@ -63,7 +63,7 @@ const About = () => {
 	const navigate = useNavigate();
 
 	function createSlide(item: string, index: number) {
-		const {altString, baseProject} = fileNameParserJpg(item);
+		const { altString, baseProject } = fileNameParserJpg(item);
 
 		return (
 			<SwiperSlide
