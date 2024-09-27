@@ -64,6 +64,111 @@ const LolChampionViewerPage = () => {
 							</p>
 						</div>
 					</div>
+
+					<div className="lol-champion-viewer-page_body_tech">
+						<h2>Technical Breakdown</h2>
+						<summary>
+							<p>
+								This project shows off League of Legends
+								champions as well as displays interesting
+								information about each champion.{" "}
+							</p>
+							<p>
+								This project is built on React working in Vite
+								with HMR and some ESLint rules.
+							</p>
+						</summary>
+
+						<ul>
+							<li>
+								<a
+									href="https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									@vitejs/plugin-react
+								</a>
+								{" uses "}
+								<a
+									href="https://babeljs.io/"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									{"Babel"}
+								</a>{" "}
+								{" for Fast Refresh."}
+							</li>
+
+							<li>
+								{"This project also uses "}
+								<a
+									href="https://sass-lang.com"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									SCSS
+								</a>
+								{" for css management"}
+							</li>
+
+							<li>
+								{"For routing, the project uses "}
+								<a
+									href="https://reactrouter.com/en/main"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									React Router Dom
+								</a>
+							</li>
+
+							<li>
+								{
+									"For state management, this project uses a combination of "
+								}
+								<a
+									href="https://tanstack.com/query/latest"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									React Query
+								</a>
+								{" and "}
+								<a
+									href="https://react.dev/learn/passing-data-deeply-with-context"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									Context API
+								</a>
+							</li>
+
+							<li>
+								{"For the carousel component, "}
+								<a
+									href="https://swiperjs.com/"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									Swiper
+								</a>
+								{" was used."}
+							</li>
+						</ul>
+
+						<p>
+							For more information, or to view the github for this
+							project, follow{" "}
+							<a
+								href="https://github.com/raymondchiu10/lol-champion-viewer"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								this link
+							</a>
+							.
+						</p>
+					</div>
 				</div>
 			</div>
 		</section>

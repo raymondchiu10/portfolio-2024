@@ -22,8 +22,8 @@
 		@media only screen and (min-width: 768px) {
 			height: 88vh;
 			width: 100%;
-			background-image: url("src/images/webp/frame-one-software.webp"),
-				url("src/images/jpg/frame-one-software.jpg");
+			background-image: url("src/images/webp/frame-one-software-2.webp"),
+				url("src/images/jpg/frame-one-software-2.jpg");
 			background-attachment: fixed;
 			background-position: center;
 			background-repeat: no-repeat;
@@ -48,10 +48,10 @@
 			}
 
 			@media only screen and (min-width: 768px) {
-				height: 88vh;
+				height: 60dvh;
 				width: 100%;
-				background-image: url("src/images/webp/frame-one-software-2.webp"),
-					url("src/images/jpg/frame-one-software-2.jpg");
+				background-image: url("src/images/webp/frame-one-software.webp"),
+					url("src/images/jpg/frame-one-software.jpg");
 				background-attachment: fixed;
 				background-position: center;
 				background-repeat: no-repeat;
@@ -94,6 +94,57 @@
 				gap: 0.5rem;
 				flex: 1;
 				line-height: 1.5;
+			}
+		}
+	}
+
+	&_tech {
+		@extend .box-shadow;
+
+		display: flex;
+		gap: 1rem;
+		padding: 1.5rem 1rem;
+
+		&_container {
+			@extend .container;
+
+			display: flex;
+			flex-direction: column;
+			gap: 1.5rem;
+		}
+
+		&_summary {
+			h2 {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+		}
+
+		p {
+			line-height: 1.5;
+		}
+
+		ul {
+			display: flex;
+			flex-direction: column;
+			gap: 1rem;
+		}
+
+		&_projects {
+			display: flex;
+			flex-direction: column;
+			gap: 1rem;
+
+			@media only screen and (min-width: 992px) {
+				flex-direction: row;
+			}
+
+			& > div {
+				display: flex;
+				flex-direction: column;
+				gap: 1rem;
+				flex: 1;
 			}
 		}
 	}

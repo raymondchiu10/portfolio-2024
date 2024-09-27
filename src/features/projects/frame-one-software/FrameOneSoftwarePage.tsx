@@ -11,9 +11,9 @@ const FrameOneSoftwarePage = () => {
 		<section className="frame-one-software-page">
 			<div className="frame-one-software-page_bg-parallax">
 				<picture>
-					<source srcSet={frameOne1webp} type="image/webp" />
-					<source srcSet={frameOne1} type="image/jpeg" />
-					<img src={frameOne1} alt={`${altString} Screenshot`} />
+					<source srcSet={frameOne2webp} type="image/webp" />
+					<source srcSet={frameOne2} type="image/jpeg" />
+					<img src={frameOne2} alt={`${altString} Screenshot`} />
 				</picture>
 			</div>
 
@@ -57,9 +57,11 @@ const FrameOneSoftwarePage = () => {
 								successfully online for public consumption.
 							</p>
 							<p>
-								I used the Riot Developer Data Dragon API
-								endpoints to parse data and display information
-								in an organized user interface.
+								I used a multitude of technologies and
+								libraries, such as React, React Native, MongoDB,
+								Express, Nodejs, D3js, Google API suites, as
+								well as many other frontend UI libraries to name
+								a few.
 							</p>
 						</div>
 					</div>
@@ -68,10 +70,80 @@ const FrameOneSoftwarePage = () => {
 
 			<div className="frame-one-software-page_bg-parallax-2">
 				<picture>
-					<source srcSet={frameOne2webp} type="image/webp" />
-					<source srcSet={frameOne2} type="image/jpeg" />
-					<img src={frameOne2} alt={`${altString} Screenshot`} />
+					<source srcSet={frameOne1webp} type="image/webp" />
+					<source srcSet={frameOne1} type="image/jpeg" />
+					<img src={frameOne1} alt={`${altString} Screenshot`} />
 				</picture>
+			</div>
+
+			<div className="frame-one-software-page_tech">
+				<div className="frame-one-software-page_tech_container">
+					<h2>Project Summaries</h2>
+					<summary className="frame-one-software-page_tech_summary">
+						<p>
+							Since the Frame One Software Company was comprised
+							of multiple projects spanning various companies and
+							contracts that I helped develop over the years, I
+							will give a brief summary of some projects that I
+							have participated in.
+						</p>
+					</summary>
+
+					<div className="frame-one-software-page_tech_projects">
+						<div>
+							<h3>Revyva</h3>
+							<p>
+								Revyva is a fitness training scheduling web
+								application with accompanying mobile React
+								Native application. This project connected
+								clients and trainers to a shared calendar to
+								book visits with each other. This service used a
+								log in system that tracked information on a
+								mongoDB server as well as incorporated push
+								notifications via SMS as well as SMS services.
+							</p>
+						</div>
+
+						<div>
+							<h3>ShackHacker</h3>
+							<p>
+								React Native project that documents core samples
+								of drilling sites for geographic analysis. Used
+								the Google Places and Maps API, as well as
+								storing image and text data on a mongoDB server.
+								The project also used a login service to
+								identify user data being entered to the mobile
+								app.
+							</p>
+						</div>
+
+						<div>
+							<h3>Netcoins</h3>
+							<p>
+								Anoter React Native cryptocurrentcy exange
+								mobile application with an accompanying web
+								application. This project used sockets to pull
+								live data from a crypto exchange as well as
+								displayed live data via a graph visualization. I
+								played a contractor role to update and optimize
+								frontend mobile code as well as address bugs
+								that arised from user input.
+							</p>
+						</div>
+
+						<div>
+							<h3>CEO.ca</h3>
+							<p>
+								This project was a website that displayed
+								investment information for industry
+								professionals. There was a preexisting codebase
+								that was to be maintained and improved upon by
+								making external tools and code quality
+								imporovements for future developers.
+							</p>
+						</div>
+					</div>
+				</div>
 			</div>
 		</section>
 	);

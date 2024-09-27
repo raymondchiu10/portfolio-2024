@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Linkedin from "src/svgs/linkedin.svg?react";
+import Github from "src/svgs/github.svg?react";
 
 const Header = () => {
 	return (
@@ -20,6 +21,15 @@ const Header = () => {
 					>
 						<div>
 							<Linkedin aria-label="linkedin" />
+						</div>
+					</a>
+					<a
+						href="https://github.com/raymondchiu10"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<div>
+							<Github aria-label="github" />
 						</div>
 					</a>
 				</div>
