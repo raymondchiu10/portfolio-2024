@@ -1,0 +1,291 @@
+.expopulus-page {
+	position: relative;
+	min-height: 100dvh;
+	background-color: $color-gray;
+
+	&_navigation {
+		@extend .box-shadow;
+		position: sticky;
+		z-index: 1;
+		top: 4.6rem;
+		height: 3rem;
+		width: 100%;
+		background-color: white;
+		visibility: hidden;
+
+		@media only screen and (min-width: 768px) {
+			visibility: visible;
+		}
+
+		&_container {
+			@extend .container;
+
+			display: flex;
+			align-items: center;
+			height: 100%;
+			gap: 2rem;
+
+			a {
+				text-decoration: none;
+				color: black;
+
+				&:hover {
+					color: $color-gray;
+				}
+
+				& > div {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					padding: 1rem;
+
+					&:hover {
+						background-color: lightgray;
+						cursor: pointer;
+					}
+
+					&:active {
+						background-color: lightgray;
+					}
+
+					@media only screen and (min-width: 768px) {
+						transition: all 150ms;
+					}
+				}
+			}
+		}
+	}
+
+	&_bg-parallax {
+		picture {
+			visibility: visible;
+
+			@media only screen and (min-width: 768px) {
+				visibility: hidden;
+			}
+
+			& > img {
+				width: 100%;
+				height: 100%;
+				object-fit: contain;
+			}
+		}
+
+		@media only screen and (min-width: 768px) {
+			height: 67dvh;
+			width: 100%;
+			background-image: url("src/images/webp/expopulus_cropped.webp"),
+				url("src/images/jpg/expopulus_cropped.jpg");
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: contain;
+		}
+
+		@media only screen and (min-width: 992px) {
+			height: 83dvh;
+		}
+
+		&-dags {
+			picture {
+				visibility: visible;
+
+				@media only screen and (min-width: 768px) {
+					visibility: hidden;
+				}
+
+				& > img {
+					width: 100%;
+					height: 100%;
+					object-fit: contain;
+				}
+			}
+
+			@media only screen and (min-width: 768px) {
+				height: 67dvh;
+				width: 100%;
+				background-image: url("src/images/webp/expopulus_dags_cropped.webp"),
+					url("src/images/jpg/expopulus_dags_cropped.jpg");
+				background-attachment: fixed;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: contain;
+			}
+
+			@media only screen and (min-width: 992px) {
+				height: 87dvh;
+			}
+		}
+
+		&-iron-pigeons {
+			picture {
+				visibility: visible;
+
+				@media only screen and (min-width: 768px) {
+					visibility: hidden;
+				}
+
+				& > img {
+					width: 100%;
+					height: 100%;
+					object-fit: contain;
+				}
+			}
+
+			@media only screen and (min-width: 768px) {
+				height: 67dvh;
+				width: 100%;
+				background-image: url("src/images/webp/expopulus_iron-pigeons_cropped.webp"),
+					url("src/images/jpg/expopulus_iron-pigeons_cropped.jpg");
+				background-attachment: fixed;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: contain;
+			}
+
+			@media only screen and (min-width: 992px) {
+				height: 87dvh;
+			}
+		}
+
+		&-final-form {
+			picture {
+				visibility: visible;
+
+				@media only screen and (min-width: 768px) {
+					visibility: hidden;
+				}
+
+				& > img {
+					width: 100%;
+					height: 100%;
+					object-fit: contain;
+				}
+			}
+
+			@media only screen and (min-width: 768px) {
+				height: 75dvh;
+				width: 100%;
+				background-image: url("src/images/webp/expopulus_final-form.webp"),
+					url("src/images/jpg/expopulus_final-form.jpg");
+				background-attachment: fixed;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: contain;
+			}
+
+			@media only screen and (min-width: 992px) {
+				height: 87dvh;
+			}
+		}
+	}
+
+	&_summary {
+		@extend .container;
+
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
+		&_header {
+			@extend .container !optional;
+
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			padding: 1rem;
+			text-transform: capitalize;
+		}
+
+		&_content {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+			gap: 2rem;
+			padding: 1rem;
+
+			@media only screen and (min-width: 992px) {
+				flex-direction: row;
+			}
+
+			&_element {
+				display: flex;
+				flex-direction: column;
+				gap: 0.5rem;
+				flex: 1;
+				line-height: 1.5;
+			}
+		}
+	}
+
+	&_tech {
+		@extend .box-shadow;
+		@extend .bg-white;
+
+		display: flex;
+		gap: 1rem;
+		padding: 1.5rem 1rem;
+
+		&_container {
+			@extend .container;
+
+			display: flex;
+			flex-direction: column;
+			gap: 1.5rem;
+
+			&_image-supplement {
+				display: flex;
+				flex-direction: column;
+				overflow: hidden;
+				width: 25rem;
+
+				picture {
+					aspect-ratio: 1;
+				}
+				img {
+					width: 100%;
+					height: 100%;
+					object-fit: cover;
+				}
+			}
+		}
+
+		&_summary {
+			h2 {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+		}
+
+		&_role {
+			display: flex;
+			flex-direction: column;
+
+			@media only screen and (min-width: 992px) {
+				flex-direction: row;
+			}
+
+			& > div {
+				display: flex;
+				flex-direction: column;
+				flex: 1;
+				gap: 1rem;
+				padding: 1rem 0;
+
+				@media only screen and (min-width: 992px) {
+					justify-content: center;
+				}
+			}
+
+			p {
+				@media only screen and (min-width: 992px) {
+					max-width: 480px;
+				}
+			}
+		}
+
+		p {
+			line-height: 1.5;
+		}
+	}
+}

@@ -5,6 +5,18 @@ a,
 p,
 span {
 	@extend .roboto;
+	color: black;
+}
+
+a {
+	&:hover {
+		color: gray;
+	}
+
+	&:active,
+	:selected {
+		color: $color-gray;
+	}
 }
 
 h1,
