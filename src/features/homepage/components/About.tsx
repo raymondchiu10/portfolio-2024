@@ -1,6 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, A11y, Autoplay } from "swiper/modules";
-import { useNavigate } from "react-router-dom";
 import { fileNameParserJpg } from "../../../shared/fileNameParserJpg";
 
 import "swiper/scss";
@@ -49,23 +48,26 @@ const imageArrayWebp = [
 ];
 
 const About = () => {
-
 	function createSlide(item: string, index: number) {
 		const { altString, baseProject } = fileNameParserJpg(item);
 		const hasHash = altString.split(" ");
 
-
 		return (
-			<SwiperSlide
-				key={altString}
-				className="about_carousel_item"
-			>
+			<SwiperSlide key={altString} className="about_carousel_item">
 				<picture>
-				<Link to={baseProject + (hasHash.length > 1 ? "#" + hasHash[1] : "")}>
-					<source srcSet={imageArrayWebp[index]} type="image/webp" />
-					<source srcSet={item} type="image/jpeg" />
-					<img src={item} alt={`${altString} Screenshot`} />
-				</Link>
+					<Link
+						to={
+							baseProject +
+							(hasHash.length > 1 ? "#" + hasHash[1] : "")
+						}
+					>
+						<source
+							srcSet={imageArrayWebp[index]}
+							type="image/webp"
+						/>
+						<source srcSet={item} type="image/jpeg" />
+						<img src={item} alt={`${altString} Screenshot`} />
+					</Link>
 				</picture>
 			</SwiperSlide>
 		);
