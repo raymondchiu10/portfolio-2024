@@ -12,7 +12,11 @@ const AboutPage = () => {
 					<picture>
 						<source srcSet={profilewebp} type="image/webp" />
 						<source srcSet={profile} type="image/jpeg" />
-						<img src={profile} alt="Raymond Chiu" />
+						<img
+							src={profile}
+							alt="Raymond Chiu"
+							draggable={false}
+						/>
 					</picture>
 				</div>
 			</div>
@@ -25,7 +29,7 @@ const AboutPage = () => {
 					}
 				</p>
 
-				<p>{`I have been building my craft in the industry over the last ${Number(date - startDate)}+ years and has had the privilege of working with exceptional companies, such as Frame One Software, Expopulus, and Xai Games, and many others. I also have experience working with startups and projects such as Netcoins, ShackHacker, and Revyva.`}</p>
+				<p>{`I have been building my craft in the industry over the last ${Number(date - startDate)}+ years and has had the privilege of working with exceptional companies, such as Frame One Software, Ex Populus, and Xai Games, and many others. I also have experience working with startups and projects such as Netcoins, ShackHacker, and Revyva.`}</p>
 
 				<p>
 					{
@@ -45,6 +49,18 @@ const AboutPage = () => {
 						{"LinkedIn"}
 					</a>
 				</p>
+
+				<div className="aboutPage_cta">
+					<a
+						className="aboutPage_cta_button"
+						href="https://drive.google.com/file/d/1w1MU693OvJKYQoN5TJ2hoXP-4u9AYakf/view?usp=sharing"
+						target="_blank"
+						rel="noopener noreferrer"
+						draggable={false}
+					>
+						View Resume
+					</a>
+				</div>
 			</div>
 		</section>
 	);
