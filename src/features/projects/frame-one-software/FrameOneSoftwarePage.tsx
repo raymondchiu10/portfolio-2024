@@ -1,11 +1,11 @@
 import { fileNameParserJpg } from "../../../shared/fileNameParserJpg";
-import frameOne1 from "src/images/jpg/frame-one-software.jpg";
-import frameOne2 from "src/images/jpg/frame-one-software-2.jpg";
-import frameOne1webp from "src/images/webp/frame-one-software.webp";
-import frameOne2webp from "src/images/webp/frame-one-software-2.webp";
+import frameOne1 from "src/images/jpg/frameonesoftware.jpg";
+import frameOne2 from "src/images/jpg/frameonesoftware2.jpg";
+import frameOne1webp from "src/images/webp/frameonesoftware.webp";
+import frameOne2webp from "src/images/webp/frameonesoftware2.webp";
 
 const FrameOneSoftwarePage = () => {
-	const { altString, projectName } = fileNameParserJpg(frameOne1);
+	const { altString } = fileNameParserJpg(frameOne1);
 
 	return (
 		<section className="frame-one-software-page">
@@ -20,7 +20,7 @@ const FrameOneSoftwarePage = () => {
 			<div className="box-shadow">
 				<div className="frame-one-software-page_summary">
 					<div className="frame-one-software-page_summary_header">
-						<h1>{projectName}</h1>
+						<h1>Frame One Software</h1>
 					</div>
 
 					<div className="frame-one-software-page_summary_content">

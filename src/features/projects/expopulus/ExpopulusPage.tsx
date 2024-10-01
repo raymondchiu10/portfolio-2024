@@ -1,17 +1,17 @@
 import { fileNameParserJpg } from "../../../shared/fileNameParserJpg";
 import expopulus from "src/images/jpg/expopulus.jpg";
 import dags from "src/images/jpg/expopulus_dags.jpg";
-import ironPigeons1 from "src/images/jpg/expopulus_iron-pigeons.jpg";
-import ironPigeons2 from "src/images/jpg/expopulus_iron-pigeons-2.jpg";
-import finalForm from "src/images/jpg/expopulus_final-form.jpg";
-import finalFormCarousel from "src/images/jpg/expopulus_final-form_carousel.jpg";
+import ironPigeons1 from "src/images/jpg/expopulus_ironpigeons.jpg";
+import ironPigeons2 from "src/images/jpg/expopulus_ironpigeons2.jpg";
+import finalForm from "src/images/jpg/expopulus_finalform.jpg";
+import finalFormCarousel from "src/images/jpg/expopulus_finalform_carousel.jpg";
 
 import expopuluswebp from "src/images/webp/expopulus.webp";
 import dagswebp from "src/images/webp/expopulus_dags.webp";
-import ironPigeons1webp from "src/images/webp/expopulus_iron-pigeons.webp";
-import ironPigeons2webp from "src/images/webp/expopulus_iron-pigeons-2.webp";
-import finalFormwebp from "src/images/webp/expopulus_final-form.webp";
-import finalFormCarouselwebp from "src/images/webp/expopulus_final-form_carousel.webp";
+import ironPigeons1webp from "src/images/webp/expopulus_ironpigeons.webp";
+import ironPigeons2webp from "src/images/webp/expopulus_ironpigeons2.webp";
+import finalFormwebp from "src/images/webp/expopulus_finalform.webp";
+import finalFormCarouselwebp from "src/images/webp/expopulus_finalform_carousel.webp";
 import { Link } from "react-router-dom";
 
 const ExpopulusPage = () => {
@@ -33,10 +33,10 @@ const ExpopulusPage = () => {
 					<Link to="#dags">
 						<div>DAGs</div>
 					</Link>
-					<Link to="#iron-pigeons">
+					<Link to="#ironpigeons">
 						<div>Iron Pigeons</div>
 					</Link>
-					<Link to="#final-form">
+					<Link to="#finalform">
 						<div>Final Form</div>
 					</Link>
 				</div>
@@ -136,7 +136,7 @@ const ExpopulusPage = () => {
 			</div>
 
 			<div
-				id="iron-pigeons"
+				id="ironpigeons"
 				className="expopulus-page_bg-parallax-iron-pigeons"
 			>
 				<picture>
@@ -199,7 +199,7 @@ const ExpopulusPage = () => {
 			</div>
 
 			<div
-				id="final-form"
+				id="finalform"
 				className="expopulus-page_bg-parallax-final-form"
 			>
 				<picture>

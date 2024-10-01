@@ -8,22 +8,22 @@ import "swiper/scss/pagination";
 
 import expopulus from "src/images/jpg/expopulus.jpg";
 import dags from "src/images/jpg/expopulus_dags.jpg";
-import finalForm from "src/images/jpg/expopulus_final-form.jpg";
-import ironPigeons1 from "src/images/jpg/expopulus_iron-pigeons.jpg";
-import frameOne1 from "src/images/jpg/frame-one-software.jpg";
+import finalForm from "src/images/jpg/expopulus_finalform.jpg";
+import ironPigeons1 from "src/images/jpg/expopulus_ironpigeons.jpg";
+import frameOne1 from "src/images/jpg/frameonesoftware.jpg";
 import rxToMe from "src/images/jpg/rxtome.jpg";
-import xaiGames1 from "src/images/jpg/xai-games.jpg";
-import lolChampionViewer from "src/images/jpg/lol-champion-viewer.jpg";
+import xaiGames1 from "src/images/jpg/xaigames.jpg";
+import lolChampionViewer from "src/images/jpg/lolchampionviewer.jpg";
 
 import expopuluswebp from "src/images/webp/expopulus.webp";
 import dagswebp from "src/images/webp/expopulus_dags.webp";
-import finalFormwebp from "src/images/webp/expopulus_final-form.webp";
-import ironPigeons1webp from "src/images/webp/expopulus_iron-pigeons.webp";
-import frameOne1webp from "src/images/webp/frame-one-software.webp";
+import finalFormwebp from "src/images/webp/expopulus_finalform.webp";
+import ironPigeons1webp from "src/images/webp/expopulus_ironpigeons.webp";
+import frameOne1webp from "src/images/webp/frameonesoftware.webp";
 import rxToMewebp from "src/images/webp/rxtome.webp";
-import xaiGames1webp from "src/images/webp/xai-games.webp";
-import lolChampionViewerwebp from "src/images/webp/lol-champion-viewer.webp";
-import { Link } from "react-router-dom";
+import xaiGames1webp from "src/images/webp/xaigames.webp";
+import lolChampionViewerwebp from "src/images/webp/lolchampionviewer.webp";
+import { useNavigate } from "react-router-dom";
 
 const imageArray = [
 	expopulus,
@@ -48,30 +48,32 @@ const imageArrayWebp = [
 ];
 
 const About = () => {
-	function createSlide(item: string, index: number) {
-		const { altString, baseProject } = fileNameParserJpg(item);
-		const hasHash = altString.split(" ");
+	const navigate = useNavigate();
+
+	const createSlide = (item: string, index: number) => {
+		const { altString, baseProject, projectName } = fileNameParserJpg(item);
+
+		const navigationHelper = () => {
+			navigate({
+				pathname: "/projects/" + baseProject,
+				hash: projectName !== baseProject ? projectName : undefined,
+			});
+		};
 
 		return (
-			<SwiperSlide key={altString} className="about_carousel_item">
+			<SwiperSlide
+				key={altString}
+				className="about_carousel_item"
+				onClick={navigationHelper}
+			>
 				<picture>
-					<Link
-						to={
-							baseProject +
-							(hasHash.length > 1 ? "#" + hasHash[1] : "")
-						}
-					>
-						<source
-							srcSet={imageArrayWebp[index]}
-							type="image/webp"
-						/>
-						<source srcSet={item} type="image/jpeg" />
-						<img src={item} alt={`${altString} Screenshot`} />
-					</Link>
+					<source srcSet={imageArrayWebp[index]} type="image/webp" />
+					<source srcSet={item} type="image/jpeg" />
+					<img src={item} alt={`${altString} Screenshot`} />
 				</picture>
 			</SwiperSlide>
 		);
-	}
+	};
 
 	return (
 		<section className="about">
