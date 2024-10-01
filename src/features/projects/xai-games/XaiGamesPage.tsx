@@ -27,7 +27,9 @@ const XaiGamesPage = () => {
 						<div className="xai-games-page_summary_content_element">
 							<h2>Company & Team</h2>
 							<p>
-								Xai Games is a decentralized web3 development company that is building layer2 solutions to bridge the gap between web3 and web2 services.
+								Xai Games is a decentralized web3 development
+								company that is building layer2 solutions to
+								bridge the gap between web3 and web2 services.
 							</p>
 							<a
 								href="https://xai.games/"
@@ -40,19 +42,23 @@ const XaiGamesPage = () => {
 						<div className="xai-games-page_summary_content_element">
 							<h2>Project goal</h2>
 							<p>
-								The goal of the project is to build a platform that will allow easy transition into development on the xai ethereum blockchain.
+								The goal of the project is to build a platform
+								that will allow easy transition into development
+								on the xai ethereum blockchain.
 							</p>
 						</div>
 						<div className="xai-games-page_summary_content_element">
 							<h2>My role</h2>
 							<p>
-								My role in Xai games was a fullstack developer that aided in ideating,
-								developing, and driving traffic and interest to the xai platform through frontend development.
+								My role in Xai games was a fullstack developer
+								that aided in ideating, developing, and driving
+								traffic and interest to the xai platform through
+								frontend development.
 							</p>
 							<p>
 								I used a multitude of technologies and
-								libraries, such as React (Vite), GSAP,
-								well as various frontend UI libraries.
+								libraries, such as React (Vite), GSAP, well as
+								various frontend UI libraries.
 							</p>
 						</div>
 					</div>
@@ -72,11 +78,24 @@ const XaiGamesPage = () => {
 					<h2>Project Checkpoint</h2>
 					<summary className="xai-games-page_tech_summary">
 						<p>
-							During my time working on Xai Games, the company was developing an electron application to allow users to acquire nodes on the Xai chain to help improve and further stabilize the platform.
+							During my time working on Xai Games, the company was
+							developing an electron application to allow users to
+							acquire nodes on the Xai chain to help improve and
+							further stabilize the platform.
 						</p>
-						<p>For more information on Xai and their protocols can be viewed <a href="https://xai-foundation.gitbook.io/xai-network" target="_blank" rel="noopener noreferrer">here</a>.</p>
+						<p>
+							For more information on Xai and their protocols can
+							be viewed{" "}
+							<a
+								href="https://xai-foundation.gitbook.io/xai-network"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								here
+							</a>
+							.
+						</p>
 					</summary>
-
 				</div>
 			</div>
 		</section>
