@@ -15,6 +15,15 @@ export default defineConfig({
 	},
 	build: {
 		minify: "esbuild", // This is the default, but you can specify it explicitly
+		rollupOptions: {
+			output: {
+				manualChunks(id) {
+					if (id.includes("node_modules")) {
+						return "vendor";
+					}
+				},
+			},
+		},
 	},
 	css: {
 		preprocessorOptions: {

@@ -1,9 +1,9 @@
 import { fileNameParserJpg } from "../../../shared/fileNameParserJpg";
-import lolChampionViewer from "src/images/jpg/lol-champion-viewer.jpg";
-import lolChampionViewerwebp from "src/images/webp/lol-champion-viewer.webp";
+import lolChampionViewer from "src/images/jpg/lolchampionviewer.jpg";
+import lolChampionViewerwebp from "src/images/webp/lolchampionviewer.webp";
 
 const LolChampionViewerPage = () => {
-	const { altString, projectName } = fileNameParserJpg(lolChampionViewer);
+	const { altString } = fileNameParserJpg(lolChampionViewer);
 
 	return (
 		<section className="lol-champion-viewer-page">
@@ -21,7 +21,7 @@ const LolChampionViewerPage = () => {
 			<div className="box-shadow">
 				<div className="lol-champion-viewer-page_body">
 					<div className="lol-champion-viewer-page_body_header">
-						<h1>{projectName}</h1>
+						<h1>LOL Champion Viewer</h1>
 					</div>
 
 					<div className="lol-champion-viewer-page_body_content">
