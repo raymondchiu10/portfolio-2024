@@ -52,12 +52,11 @@ const About = () => {
 
 	function createSlide(item: string, index: number) {
 		const { altString, baseProject } = fileNameParserJpg(item);
-		const hasHash = altString.split(" ");
 
 		const navigationHelper = () => {
-			navigate(
-				`${baseProject}${hasHash.length > 1 ? "#" + hasHash[1] : ""}`,
-			);
+			navigate({
+				pathname: baseProject,
+			});
 		};
 
 		return (
