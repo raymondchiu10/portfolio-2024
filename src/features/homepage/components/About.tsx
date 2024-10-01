@@ -24,6 +24,7 @@ import frameOne1webp from "src/images/webp/frame-one-software.webp";
 import rxToMewebp from "src/images/webp/rxtome.webp";
 import xaiGames1webp from "src/images/webp/xai-games.webp";
 import lolChampionViewerwebp from "src/images/webp/lol-champion-viewer.webp";
+import { Link } from "react-router-dom";
 
 const imageArray = [
 	expopulus,
@@ -48,27 +49,23 @@ const imageArrayWebp = [
 ];
 
 const About = () => {
-	const navigate = useNavigate();
 
 	function createSlide(item: string, index: number) {
 		const { altString, baseProject } = fileNameParserJpg(item);
+		const hasHash = altString.split(" ");
 
-		const navigationHelper = () => {
-			navigate({
-				pathname: baseProject,
-			});
-		};
 
 		return (
 			<SwiperSlide
 				key={altString}
 				className="about_carousel_item"
-				onClick={navigationHelper}
 			>
 				<picture>
+				<Link to={baseProject + (hasHash.length > 1 ? "#" + hasHash[1] : "")}>
 					<source srcSet={imageArrayWebp[index]} type="image/webp" />
 					<source srcSet={item} type="image/jpeg" />
 					<img src={item} alt={`${altString} Screenshot`} />
+				</Link>
 				</picture>
 			</SwiperSlide>
 		);
