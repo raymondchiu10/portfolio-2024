@@ -1,4 +1,4 @@
-import { createHashRouter, Navigate } from "react-router-dom";
+import { createBrowserRouter, Navigate } from "react-router-dom";
 import Layout from "./Layout";
 import Homepage from "../features/homepage/Homepage";
 import AboutPage from "../features/aboutPage/AboutPage";
@@ -8,7 +8,7 @@ import FrameOneSoftwarePage from "../features/projects/frame-one-software/FrameO
 import XaiGamgesPage from "../features/projects/xai-games/XaiGamesPage";
 import LolChampionViewerPage from "../features/projects/lol-champion-viewer/LolChampionViewerPage";
 
-const router = createHashRouter([
+const router = createBrowserRouter([
 	{
 		path: "/",
 		element: <Layout />,
