@@ -15,11 +15,12 @@ import finalFormCarouselwebp from "src/images/webp/expopulus_finalform_carousel.
 
 const ExpopulusPage = () => {
 	const { altString } = fileNameParserJpg(expopulus);
-	const { altString: dagsAltString} = fileNameParserJpg(dags);
+	const { altString: dagsAltString } = fileNameParserJpg(dags);
 	const { altString: ipAltString } = fileNameParserJpg(ironPigeons1);
 	const { altString: ip2AltString } = fileNameParserJpg(ironPigeons2);
 	const { altString: ffAltString } = fileNameParserJpg(finalForm);
-	const { altString: ffCarouselAltString } = fileNameParserJpg(finalFormCarousel);
+	const { altString: ffCarouselAltString } =
+		fileNameParserJpg(finalFormCarousel);
 
 	return (
 		<section className="expopulus-page">
@@ -107,13 +108,12 @@ const ExpopulusPage = () => {
 
 					<h3>My Role</h3>
 					<p>
-						Helped brainstorm, and create multiple UI elements
-						and Communicated across multiple teams to ideate,
-						promote, and develop website content as well as
-						deploy and update information on the DAG trading
-						cards. Also aided in monitoring NFT creation and
-						troubleshoot issues involving the web2 and web3
-						bridging.
+						Helped brainstorm, and create multiple UI elements and
+						Communicated across multiple teams to ideate, promote,
+						and develop website content as well as deploy and update
+						information on the DAG trading cards. Also aided in
+						monitoring NFT creation and troubleshoot issues
+						involving the web2 and web3 bridging.
 					</p>
 				</div>
 			</div>
@@ -142,24 +142,37 @@ const ExpopulusPage = () => {
 						<div>
 							<h3>My Role</h3>
 							<p>
-								Continued to communicate across multiple teams to
-								ideate, promote, and develop website content as well
-								as deploy and update information on the Iron Pigeons
-								trading cards. Helped create reusable components
-								that can be used across multiple projects to
-								optimize future projects. Also aided in monitoring
-								NFT creation and troubleshoot issues involving the
-								web2 and web3 bridging.
+								Continued to communicate across multiple teams
+								to ideate, promote, and develop website content
+								as well as deploy and update information on the
+								Iron Pigeons trading cards. Helped create
+								reusable components that can be used across
+								multiple projects to optimize future projects.
+								Also aided in monitoring NFT creation and
+								troubleshoot issues involving the web2 and web3
+								bridging.
 							</p>
 						</div>
 
 						<figure className="expopulus-page_tech_container_image-supplement">
 							<picture>
-								<source srcSet={ironPigeons2webp} type="image/webp" />
-								<source srcSet={ironPigeons2} type="image/jpeg" />
-								<img src={ironPigeons2} alt={`${ip2AltString} Screenshot`} />
+								<source
+									srcSet={ironPigeons2webp}
+									type="image/webp"
+								/>
+								<source
+									srcSet={ironPigeons2}
+									type="image/jpeg"
+								/>
+								<img
+									src={ironPigeons2}
+									alt={`${ip2AltString} Screenshot`}
+								/>
 							</picture>
-							<figcaption>fig. 1 - reusable component made on the Iron Pigeons project.</figcaption>
+							<figcaption>
+								fig. 1 - reusable component made on the Iron
+								Pigeons project.
+							</figcaption>
 						</figure>
 					</div>
 				</div>
@@ -179,7 +192,10 @@ const ExpopulusPage = () => {
 					<h3>Project Summary</h3>
 					<summary className="expopulus-page_tech_summary">
 						<p>
-							Final Form is a card strategy deck building auto-battler created by Ex Populus centered around building and collecting cards, in the form of NFTs in order to defeat other decks.
+							Final Form is a card strategy deck building
+							auto-battler created by Ex Populus centered around
+							building and collecting cards, in the form of NFTs
+							in order to defeat other decks.
 						</p>
 					</summary>
 
@@ -188,22 +204,36 @@ const ExpopulusPage = () => {
 							<h3>My Role</h3>
 							<p>
 								Collaborated across multiple teams to aid in
-								ideation, play testing, and developing website content as well
-								as deploy and update website information on the Final Form progress. Helped create reusable components
-								that can be used across multiple projects to
-								optimize future projects. Also aided in monitoring
-								NFT creation and troubleshoot issues involving the
-								web2 and web3 bridging.
+								ideation, play testing, and developing website
+								content as well as deploy and update website
+								information on the Final Form progress. Helped
+								create reusable components that can be used
+								across multiple projects to optimize future
+								projects. Also aided in monitoring NFT creation
+								and troubleshoot issues involving the web2 and
+								web3 bridging.
 							</p>
 						</div>
 
 						<figure className="expopulus-page_tech_container_image-supplement">
 							<picture>
-								<source srcSet={finalFormCarouselwebp} type="image/webp" />
-								<source srcSet={finalFormCarousel} type="image/jpeg" />
-								<img src={finalFormCarousel} alt={`${ffCarouselAltString} Screenshot`} />
+								<source
+									srcSet={finalFormCarouselwebp}
+									type="image/webp"
+								/>
+								<source
+									srcSet={finalFormCarousel}
+									type="image/jpeg"
+								/>
+								<img
+									src={finalFormCarousel}
+									alt={`${ffCarouselAltString} Screenshot`}
+								/>
 							</picture>
-							<figcaption>fig. 2 - reusable tab navigation component made on the Final Form website.</figcaption>
+							<figcaption>
+								fig. 2 - reusable tab navigation component made
+								on the Final Form website.
+							</figcaption>
 						</figure>
 					</div>
 				</div>
