@@ -22,16 +22,6 @@ const router = createBrowserRouter([
 				element: <AboutPage />,
 			},
 			{
-				path: "*",
-				element: <Navigate to="/" replace />, // Redirect to homepage for non-existing routes
-			},
-		],
-	},
-	{
-		path: "/projects",
-		element: <Layout />,
-		children: [
-			{
 				path: "expopulus",
 				element: <ExpopulusPage />,
 			},
@@ -50,6 +40,10 @@ const router = createBrowserRouter([
 			{
 				path: "lol-champion-viewer",
 				element: <LolChampionViewerPage />,
+			},
+			{
+				path: "*",
+				element: <Navigate to="/" replace />, // Redirect to homepage for non-existing routes
 			},
 		],
 	},

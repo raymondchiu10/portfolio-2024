@@ -8,7 +8,6 @@ export const fileNameParserJpg = (item: string) => {
 		.join(" ");
 
 	const baseProject =
-		"/projects/" +
 		item.slice(startString + startWord.length, endString).split("_")[0];
 
 	const projectName = item
