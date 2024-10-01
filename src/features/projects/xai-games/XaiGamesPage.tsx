@@ -1,11 +1,11 @@
 import { fileNameParserJpg } from "../../../shared/fileNameParserJpg";
-import xaiGames1 from "src/images/jpg/xai-games.jpg";
-import xaiGames2 from "src/images/jpg/xai-games_sentrynodes.jpg";
-import xaiGames1webp from "src/images/webp/xai-games.webp";
-import xaiGames2webp from "src/images/webp/xai-games_sentrynodes.webp";
+import xaiGames1 from "src/images/jpg/xaigames.jpg";
+import xaiGames2 from "src/images/jpg/xaigames_sentrynodes.jpg";
+import xaiGames1webp from "src/images/webp/xaigames.webp";
+import xaiGames2webp from "src/images/webp/xaigames_sentrynodes.webp";
 
 const XaiGamesPage = () => {
-	const { altString, projectName } = fileNameParserJpg(xaiGames1);
+	const { altString } = fileNameParserJpg(xaiGames1);
 
 	return (
 		<section className="xai-games-page">
@@ -20,7 +20,7 @@ const XaiGamesPage = () => {
 			<div className="box-shadow">
 				<div className="xai-games-page_summary">
 					<div className="xai-games-page_summary_header">
-						<h1>{projectName}</h1>
+						<h1>Xai Games</h1>
 					</div>
 
 					<div className="xai-games-page_summary_content">
