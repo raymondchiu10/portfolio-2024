@@ -1,6 +1,11 @@
 .xai-games-page {
 	position: relative;
 	min-height: 100dvh;
+	padding: 0 1rem;
+
+	@media only screen and (min-width: 768px) {
+		padding: 0;
+	}
 
 	&_bg-parallax {
 		aspect-ratio: 1;

@@ -1,6 +1,7 @@
 @import "./components";
 
 .homepage {
-	@extends .container !optional;
+	@extend .container;
 	position: relative;
+	padding: 0 1rem;
 }
