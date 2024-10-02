@@ -36,7 +36,7 @@ const router = createBrowserRouter([
 				element: <ExpopulusPage />,
 			},
 			{
-				path: "frame-one-software",
+				path: "frameonesoftware",
 				element: <FrameOneSoftwarePage />,
 			},
 			{
@@ -44,11 +44,11 @@ const router = createBrowserRouter([
 				element: <RxtomePage />,
 			},
 			{
-				path: "xai-games",
+				path: "xaigames",
 				element: <XaiGamgesPage />,
 			},
 			{
-				path: "lol-champion-viewer",
+				path: "lolchampionviewer",
 				element: <LolChampionViewerPage />,
 			},
 			{
