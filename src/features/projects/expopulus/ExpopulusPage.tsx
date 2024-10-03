@@ -174,26 +174,28 @@ const ExpopulusPage = () => {
 							</p>
 						</div>
 
-						<figure className="expopulus-page_tech_container_image-supplement">
-							<picture>
-								<source
-									srcSet={ironPigeons2webp}
-									type="image/webp"
-								/>
-								<source
-									srcSet={ironPigeons2}
-									type="image/jpeg"
-								/>
-								<img
-									src={ironPigeons2}
-									alt={`${ip2AltString} Screenshot`}
-								/>
-							</picture>
-							<figcaption>
-								fig. 1 - reusable component made on the Iron
-								Pigeons project.
-							</figcaption>
-						</figure>
+						<div>
+							<figure className="expopulus-page_tech_container_image-supplement">
+								<picture>
+									<source
+										srcSet={ironPigeons2webp}
+										type="image/webp"
+									/>
+									<source
+										srcSet={ironPigeons2}
+										type="image/jpeg"
+									/>
+									<img
+										src={ironPigeons2}
+										alt={`${ip2AltString} Screenshot`}
+									/>
+								</picture>
+								<figcaption>
+									fig. 1 - reusable component made on the Iron
+									Pigeons project.
+								</figcaption>
+							</figure>
+						</div>
 					</div>
 				</div>
 			</div>
