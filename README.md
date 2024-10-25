@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fabdf23c-c372-4613-bb83-3bdad8ec1bd8/deploy-status)](https://app.netlify.com/sites/raymondchiu-portfolio/deploys)
 # My Portfolio Website
 
 This is just a showcase of some professional projects I have helped develop.
