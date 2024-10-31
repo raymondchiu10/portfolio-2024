@@ -25,7 +25,7 @@ const AboutPage = () => {
 			<div className="aboutPage_body">
 				<p>
 					{
-						"I'm a Full Stack Developer with a background in Digital Design and Development, user experience/interface design with a focus on Frontend Development."
+						"I'm a Full Stack Developer with a background in Digital Design and Development, user experience/interface design."
 					}
 				</p>
 
@@ -53,7 +53,7 @@ const AboutPage = () => {
 				<div className="aboutPage_cta">
 					<a
 						className="aboutPage_cta_button"
-						href="https://drive.google.com/file/d/1w1MU693OvJKYQoN5TJ2hoXP-4u9AYakf/view?usp=sharing"
+						href="https://drive.google.com/file/d/1F8aLQ3gj79M4irHb2PXLFjUc3gc_NJrI/view?usp=sharing"
 						target="_blank"
 						rel="noopener noreferrer"
 						draggable={false}
