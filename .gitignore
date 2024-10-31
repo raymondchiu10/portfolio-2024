@@ -32,3 +32,6 @@ dist-ssr
 
 # Testing folders
 coverage
+
+# .env variables
+.env
