@@ -22,13 +22,14 @@ exports[`About Page > renders the page 1`] = `
           />
           <img
             alt="Raymond Chiu"
+            draggable="false"
             src="/src/images/jpg/arizona_profile.jpg"
           />
         </picture>
       </div>
     </div>
     <h2>
-      Hey there,
+      Hey there
     </h2>
     <div
       class="aboutPage_body"
@@ -37,7 +38,7 @@ exports[`About Page > renders the page 1`] = `
         I'm a Full Stack Developer with a background in Digital Design and Development, user experience/interface design with a focus on Frontend Development.
       </p>
       <p>
-        I have been building my craft in the industry over the last 6+ years and has had the privilege of working with exceptional companies, such as Frame One Software, Expopulus, and Xai Games, and many others. I also have experience working with startups and projects such as Netcoins, ShackHacker, and Revyva.
+        I have been building my craft in the industry over the last 6+ years and has had the privilege of working with exceptional companies, such as Frame One Software, Ex Populus, and Xai Games, and many others. I also have experience working with startups and projects such as Netcoins, ShackHacker, and Revyva.
       </p>
       <p>
         I also enjoy playing disc golf, video games, and enjoying the local restraunts in the area.
@@ -52,6 +53,19 @@ exports[`About Page > renders the page 1`] = `
           LinkedIn
         </a>
       </p>
+      <div
+        class="aboutPage_cta"
+      >
+        <a
+          class="aboutPage_cta_button"
+          draggable="false"
+          href="https://drive.google.com/file/d/1w1MU693OvJKYQoN5TJ2hoXP-4u9AYakf/view?usp=sharing"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          View Resume
+        </a>
+      </div>
     </div>
   </section>
 </DocumentFragment>
