@@ -42,20 +42,19 @@
 		}
 
 		&_item {
-				display: flex;
+			display: flex;
 
-				justify-content: center;
-				align-items: center;
-				max-height: 768px;
+			justify-content: center;
+			align-items: center;
+			max-height: 768px;
 
-				& source,
-				img {
-					width: 100%;
-					height: 100%;
-					object-fit: cover;
-				}
+			& source,
+			img {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+			}
 		}
-
 	}
 	.swiper-pagination-bullet {
 		width: 1.5rem;
