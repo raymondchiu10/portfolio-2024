@@ -7,7 +7,7 @@ const Hero = () => {
 				</h2>
 				<p className="hero_container_subheader">
 					{
-						"I'm a Fullstack Developer who enjoys frontend development and bringing experiences and ideas to life."
+						"I'm a Fullstack Developer who enjoys bringing experiences and ideas to life."
 					}
 				</p>
 			</div>
