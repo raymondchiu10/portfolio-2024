@@ -27,7 +27,7 @@ const FrameOneSoftwarePage = () => {
 						<div className="frame-one-software-page_summary_content_element">
 							<h2>Company & Team</h2>
 							<p>
-								Frame One Software (defunct) is a all in one
+								Frame One Software (defunct) is an all in one
 								development company that builds websites, apps &
 								software that provide solutions and create
 								tangible results for their clients.
