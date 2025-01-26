@@ -1,5 +1,5 @@
-import profile from "src/images/jpg/arizona_profile.jpg";
-import profilewebp from "src/images/webp/arizona_profile.webp";
+import profile from "src/images/jpg/profile_raymond-chiu.jpg";
+import profilewebp from "src/images/webp/profile_raymond-chiu.webp";
 
 const AboutPage = () => {
 	const startDate = 2018;
@@ -21,7 +21,7 @@ const AboutPage = () => {
 				</div>
 			</div>
 
-			<h2>Hey there</h2>
+			<h2>Hey there!</h2>
 			<div className="aboutPage_body">
 				<p>
 					{
