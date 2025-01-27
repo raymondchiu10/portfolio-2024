@@ -7,7 +7,7 @@ const LolChampionViewerPage = () => {
 
 	return (
 		<section className="lol-champion-viewer-page">
-			<div className="lol-champion-viewer-page_bg-parallax">
+			<div className="lol-champion-viewer-page__bg-parallax">
 				<picture>
 					<source srcSet={lolChampionViewerwebp} type="image/webp" />
 					<source srcSet={lolChampionViewer} type="image/jpeg" />
@@ -19,13 +19,13 @@ const LolChampionViewerPage = () => {
 			</div>
 
 			<div className="box-shadow">
-				<div className="lol-champion-viewer-page_body">
-					<div className="lol-champion-viewer-page_body_header">
+				<div className="lol-champion-viewer-page__body">
+					<div className="lol-champion-viewer-page__header">
 						<h1>LOL Champion Viewer</h1>
 					</div>
 
-					<div className="lol-champion-viewer-page_body_content">
-						<div className="lol-champion-viewer-page_body_content_element">
+					<div className="lol-champion-viewer-page__content">
+						<div className="lol-champion-viewer-page__content-element">
 							<h2>Company & Team</h2>
 							<p>
 								Lol Champion Viewer is a personal project
@@ -41,7 +41,7 @@ const LolChampionViewerPage = () => {
 								https://lol-champion-viewer.netlify.app/
 							</a>
 						</div>
-						<div className="lol-champion-viewer-page_body_content_element">
+						<div className="lol-champion-viewer-page__content-element">
 							<h2>Project goal</h2>
 							<p>
 								The target clients are users of league League of
@@ -50,7 +50,7 @@ const LolChampionViewerPage = () => {
 								champion information quickly.
 							</p>
 						</div>
-						<div className="lol-champion-viewer-page_body_content_element">
+						<div className="lol-champion-viewer-page__content-element">
 							<h2>My role</h2>
 							<p>
 								I was in charge of ideating, developing, and
@@ -65,7 +65,7 @@ const LolChampionViewerPage = () => {
 						</div>
 					</div>
 
-					<div className="lol-champion-viewer-page_body_tech">
+					<div className="lol-champion-viewer-page__tech">
 						<h2>Technical Breakdown</h2>
 						<summary>
 							<p>

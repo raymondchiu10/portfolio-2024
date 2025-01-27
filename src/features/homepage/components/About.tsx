@@ -63,7 +63,7 @@ const About = () => {
 		return (
 			<SwiperSlide
 				key={altString}
-				className="about_carousel_item"
+				className="about__carousel-item"
 				onClick={navigationHelper}
 			>
 				<picture>
@@ -77,13 +77,11 @@ const About = () => {
 
 	return (
 		<section className="about">
-			<div className="about_container">
-				<h3 className="about_container_header">
-					Projects I have worked on:
-				</h3>
+			<div className="about__container">
+				<h3 className="about__header">Projects I have worked on:</h3>
 			</div>
 
-			<div className="about_carousel">
+			<div className="about__carousel">
 				<Swiper
 					modules={[Navigation, Pagination, A11y, Autoplay]}
 					a11y={{ enabled: true }}

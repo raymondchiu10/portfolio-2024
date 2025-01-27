@@ -1,5 +1,6 @@
 .hero {
 	@extend .container !optional;
+
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -12,25 +13,25 @@
 		min-height: 325px;
 	}
 
-	&_container {
+	&__container {
 		max-width: 768px;
+	}
 
-		&_header {
-			font-size: 1.5rem;
-			font-weight: 200;
-			line-height: 1.75;
+	&__header {
+		font-size: 1.5rem;
+		font-weight: 200;
+		line-height: 1.75;
 
-			@media only screen and (min-width: 576px) {
-				font-size: 2rem;
-			}
-		}
-
-		&_subheader {
+		@media only screen and (min-width: 576px) {
 			font-size: 2rem;
+		}
+	}
 
-			@media only screen and (min-width: 576px) {
-				font-size: 2.5rem;
-			}
+	&__subheader {
+		font-size: 2rem;
+
+		@media only screen and (min-width: 576px) {
+			font-size: 2.5rem;
 		}
 	}
 }
