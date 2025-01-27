@@ -7,7 +7,7 @@
 		padding: 0;
 	}
 
-	&_bg-parallax {
+	&__bg-parallax {
 		aspect-ratio: 1;
 
 		picture {
@@ -36,58 +36,58 @@
 		}
 	}
 
-	&_body {
+	&__body {
 		@extend .container;
 
 		display: flex;
 		flex-direction: column;
 		gap: 2rem;
+	}
 
-		&_header {
-			@extend .container !optional;
+	&__header {
+		@extend .container !optional;
 
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			padding: 1rem;
-			text-transform: capitalize;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 1rem;
+		text-transform: capitalize;
+	}
+
+	&__content {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		gap: 2rem;
+		padding: 0 1rem;
+
+		@media only screen and (min-width: 768px) {
+			flex-direction: row;
+		}
+	}
+
+	&__content-element {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		flex: 1;
+		line-height: 1.5;
+	}
+
+	&__tech {
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+		padding: 1.5rem 1rem;
+
+		p {
+			line-height: 1.5;
 		}
 
-		&_content {
-			display: flex;
-			flex-direction: column;
-			justify-content: space-around;
-			gap: 2rem;
-			padding: 0 1rem;
-
-			@media only screen and (min-width: 768px) {
-				flex-direction: row;
-			}
-
-			&_element {
-				display: flex;
-				flex-direction: column;
-				gap: 0.5rem;
-				flex: 1;
-				line-height: 1.5;
-			}
-		}
-
-		&_tech {
+		ul {
 			display: flex;
 			flex-direction: column;
 			gap: 1rem;
-			padding: 1.5rem 1rem;
-
-			p {
-				line-height: 1.5;
-			}
-
-			ul {
-				display: flex;
-				flex-direction: column;
-				gap: 1rem;
-			}
 		}
 	}
 }

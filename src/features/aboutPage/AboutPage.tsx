@@ -7,8 +7,8 @@ const AboutPage = () => {
 
 	return (
 		<section className="aboutPage">
-			<div className="aboutPage_profile">
-				<div className="aboutPage_profile_container">
+			<div className="aboutPage__profile">
+				<div className="aboutPage__profile-container">
 					<picture>
 						<source srcSet={profilewebp} type="image/webp" />
 						<source srcSet={profile} type="image/jpeg" />
@@ -21,23 +21,24 @@ const AboutPage = () => {
 				</div>
 			</div>
 
-			<h2>Hey there!</h2>
+			<h2 className="aboutPage__header">Hey there!</h2>
+
 			<div className="aboutPage_body">
-				<p>
+				<p className="aboutPage_body-content">
 					{
 						"I'm a Full Stack Developer with a background in Digital Design and Development, user experience/interface design."
 					}
 				</p>
 
-				<p>{`I have been building my craft in the industry over the last ${Number(date - startDate)}+ years and has had the privilege of working with exceptional companies, such as Frame One Software, Ex Populus, and Xai Games, and many others. I also have experience working with startups and projects such as Netcoins, ShackHacker, and Revyva.`}</p>
+				<p className="aboutPage_body-content">{`I have been building my craft in the industry over the last ${Number(date - startDate)}+ years and has had the privilege of working with exceptional companies, such as Frame One Software, Ex Populus, and Xai Games, and many others. I also have experience working with startups and projects such as Netcoins, ShackHacker, and Revyva.`}</p>
 
-				<p>
+				<p className="aboutPage_body-content">
 					{
 						"I also enjoy playing disc golf, video games, and enjoying the local restraunts in the area."
 					}
 				</p>
 
-				<p>
+				<p className="aboutPage_body-content">
 					{
 						"You may have noticed that almost all my work is in screenshot form - almost all of my professional work is on private repositories, so if you would like to know more, shoot me a message on my "
 					}
@@ -50,9 +51,9 @@ const AboutPage = () => {
 					</a>
 				</p>
 
-				<div className="aboutPage_cta">
+				<div className="aboutPage__cta">
 					<a
-						className="aboutPage_cta_button"
+						className="aboutPage__cta-button"
 						href="https://drive.google.com/file/d/1F8aLQ3gj79M4irHb2PXLFjUc3gc_NJrI/view?usp=sharing"
 						target="_blank"
 						rel="noopener noreferrer"

@@ -7,30 +7,26 @@
 	align-items: center;
 	width: 100%;
 
-	&_container {
+	&__container {
 		display: flex;
 		justify-content: center;
 
 		@media only screen and (min-width: 576px) {
 			justify-content: start;
 		}
+	}
 
-		&_header {
-			font-size: 1.5rem;
-			font-weight: 200;
-			line-height: 1.75;
+	&__header {
+		font-size: 1.5rem;
+		font-weight: 200;
+		line-height: 1.75;
 
-			@media only screen and (min-width: 576px) {
-				font-size: 2rem;
-			}
-		}
-
-		&_subheader {
-			font-size: 2.5rem;
+		@media only screen and (min-width: 576px) {
+			font-size: 2rem;
 		}
 	}
 
-	&_carousel {
+	&__carousel {
 		@extend .container;
 
 		background-color: black;
@@ -40,30 +36,31 @@
 			border-radius: 1rem;
 			overflow: hidden;
 		}
+	}
 
-		&_item {
-			display: flex;
+	&__carousel-item {
+		display: flex;
 
-			justify-content: center;
-			align-items: center;
-			max-height: 768px;
+		justify-content: center;
+		align-items: center;
+		max-height: 768px;
 
-			& source,
-			img {
-				width: 100%;
-				height: 100%;
-				object-fit: cover;
+		& source,
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
 
-				&:hover {
-					transform: scale(1.01);
-				}
+			&:hover {
+				transform: scale(1.01);
+			}
 
-				&:active {
-					transform: scale(0.99);
-				}
+			&:active {
+				transform: scale(0.99);
 			}
 		}
 	}
+
 	.swiper-pagination-bullet {
 		width: 1.5rem;
 		height: 1.5rem;

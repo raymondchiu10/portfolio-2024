@@ -5,13 +5,15 @@ import Github from "src/svgs/github.svg?react";
 const Header = () => {
 	return (
 		<header className="header">
-			<div className="header_container">
-				<Link to={"/"} className="header_container_title">
+			<div className="header__container">
+				<Link to={"/"} className="header__title">
 					<h1>Raymond Chiu</h1>
-					<span>Fullstack Web Developer</span>
+					<span className="header__subtitle">
+						Fullstack Web Developer
+					</span>
 				</Link>
 
-				<div className="header_container_links">
+				<div className="header__links">
 					<Link to="/">Work</Link>
 					<Link to="/about">About</Link>
 					<a
