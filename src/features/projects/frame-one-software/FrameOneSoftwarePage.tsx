@@ -9,7 +9,7 @@ const FrameOneSoftwarePage = () => {
 
 	return (
 		<section className="frame-one-software-page">
-			<div className="frame-one-software-page_bg-parallax">
+			<div className="frame-one-software-page__bg-parallax">
 				<picture>
 					<source srcSet={frameOne2webp} type="image/webp" />
 					<source srcSet={frameOne2} type="image/jpeg" />
@@ -18,13 +18,13 @@ const FrameOneSoftwarePage = () => {
 			</div>
 
 			<div className="box-shadow">
-				<div className="frame-one-software-page_summary">
-					<div className="frame-one-software-page_summary_header">
+				<div className="frame-one-software-page__summary">
+					<div className="frame-one-software-page__header">
 						<h1>Frame One Software</h1>
 					</div>
 
-					<div className="frame-one-software-page_summary_content">
-						<div className="frame-one-software-page_summary_content_element">
+					<div className="frame-one-software-page__content">
+						<div className="frame-one-software-page__element">
 							<h2>Company & Team</h2>
 							<p>
 								Frame One Software (defunct) is an all in one
@@ -40,7 +40,7 @@ const FrameOneSoftwarePage = () => {
 								https://www.linkedin.com/company/frame-one-software-inc
 							</a>
 						</div>
-						<div className="frame-one-software-page_summary_content_element">
+						<div className="frame-one-software-page__element">
 							<h2>Project goal</h2>
 							<p>
 								The goals will vary from product and solutions,
@@ -49,7 +49,7 @@ const FrameOneSoftwarePage = () => {
 								project.
 							</p>
 						</div>
-						<div className="frame-one-software-page_summary_content_element">
+						<div className="frame-one-software-page__element">
 							<h2>My role</h2>
 							<p>
 								As a fullstack developer in charge of ideating,
@@ -68,7 +68,7 @@ const FrameOneSoftwarePage = () => {
 				</div>
 			</div>
 
-			<div className="frame-one-software-page_bg-parallax-2">
+			<div className="frame-one-software-page__bg-parallax-2">
 				<picture>
 					<source srcSet={frameOne1webp} type="image/webp" />
 					<source srcSet={frameOne1} type="image/jpeg" />
@@ -76,10 +76,10 @@ const FrameOneSoftwarePage = () => {
 				</picture>
 			</div>
 
-			<div className="frame-one-software-page_tech">
-				<div className="frame-one-software-page_tech_container">
+			<div className="frame-one-software-page__tech">
+				<div className="frame-one-software-page__tech-container">
 					<h2>Project Summaries</h2>
-					<summary className="frame-one-software-page_tech_summary">
+					<summary className="frame-one-software-page__tech-summary">
 						<p>
 							Since the Frame One Software Company was comprised
 							of multiple projects spanning various companies and
@@ -89,8 +89,8 @@ const FrameOneSoftwarePage = () => {
 						</p>
 					</summary>
 
-					<div className="frame-one-software-page_tech_projects">
-						<div>
+					<div className="frame-one-software-page__tech-projects">
+						<div className="frame-one-software-page__tech-item">
 							<h3>Revyva</h3>
 							<p>
 								Revyva is a fitness training scheduling web
@@ -104,7 +104,7 @@ const FrameOneSoftwarePage = () => {
 							</p>
 						</div>
 
-						<div>
+						<div className="frame-one-software-page__tech-item">
 							<h3>ShackHacker</h3>
 							<p>
 								React Native project that documents core samples
@@ -117,7 +117,7 @@ const FrameOneSoftwarePage = () => {
 							</p>
 						</div>
 
-						<div>
+						<div className="frame-one-software-page__tech-item">
 							<h3>Netcoins</h3>
 							<p>
 								Anoter React Native cryptocurrentcy exange
@@ -131,7 +131,7 @@ const FrameOneSoftwarePage = () => {
 							</p>
 						</div>
 
-						<div>
+						<div className="frame-one-software-page__tech-item">
 							<h3>CEO.ca</h3>
 							<p>
 								This project was a website that displayed

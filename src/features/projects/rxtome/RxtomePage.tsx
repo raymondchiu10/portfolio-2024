@@ -7,7 +7,7 @@ const RxtomePage = () => {
 
 	return (
 		<section className="rxtome-page">
-			<div className="rxtome-page_bg-parallax">
+			<div className="rxtome-page__bg-parallax">
 				<picture>
 					<source srcSet={rxToMewebp} type="image/webp" />
 					<source srcSet={rxToMe} type="image/jpeg" />
@@ -16,13 +16,13 @@ const RxtomePage = () => {
 			</div>
 
 			<div className="box-shadow">
-				<div className="rxtome-page_body">
-					<div className="rxtome-page_body_header">
+				<div className="rxtome-page__body">
+					<div className="rxtome-page__header">
 						<h1>{projectName}</h1>
 					</div>
 
-					<div className="rxtome-page_body_content">
-						<div className="rxtome-page_body_content_element">
+					<div className="rxtome-page__content">
+						<div className="rxtome-page__content-element">
 							<h2>Company & Team</h2>
 							<p>
 								Prizm Media Inc. is a Lead generation company
@@ -37,7 +37,7 @@ const RxtomePage = () => {
 								https://prizmmedia.com/
 							</a>
 						</div>
-						<div className="rxtome-page_body_content_element">
+						<div className="rxtome-page__content-element">
 							<h2>Project goal</h2>
 							<p>
 								Rxtome is a mail Order Pharmaceutical
@@ -47,7 +47,7 @@ const RxtomePage = () => {
 								across the United States.
 							</p>
 						</div>
-						<div className="rxtome-page_body_content_element">
+						<div className="rxtome-page__content-element">
 							<h2>My role</h2>
 							<p>
 								I was in charge of ideating, developing, and
@@ -64,7 +64,7 @@ const RxtomePage = () => {
 						</div>
 					</div>
 
-					<div className="rxtome-page_body_tech">
+					<div className="rxtome-page__tech">
 						<h2>Technical Summary</h2>
 						<summary>
 							<p>
