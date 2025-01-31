@@ -30,7 +30,7 @@
 	&__card {
 		@extend .container;
 
-		display: inline-flex;
+		display: flex;
 		flex-wrap: wrap;
 		gap: 1rem;
 	}
@@ -46,6 +46,11 @@
 		cursor: pointer;
 
 		@include media-breakpoint-up($sm) {
+			flex: 49%;
+		}
+
+		@include media-breakpoint-up($md) {
+			flex: 32%;
 		}
 
 		& source,
