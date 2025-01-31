@@ -25,7 +25,7 @@
 	&__subtitle {
 		font-size: small;
 
-		@media only screen and (min-width: 576px) {
+		@include media-breakpoint-up($sm) {
 			font-size: medium;
 		}
 	}
