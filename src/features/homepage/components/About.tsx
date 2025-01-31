@@ -61,9 +61,9 @@ const About = () => {
 		};
 
 		return (
-			<SwiperSlide
+			<article
 				key={altString}
-				className="about__carousel-item"
+				className="about__card-item"
 				onClick={navigationHelper}
 			>
 				<picture>
@@ -71,7 +71,7 @@ const About = () => {
 					<source srcSet={item} type="image/jpeg" />
 					<img src={item} alt={`${altString} Screenshot`} />
 				</picture>
-			</SwiperSlide>
+			</article>
 		);
 	};
 
@@ -81,26 +81,7 @@ const About = () => {
 				<h3 className="about__header">Projects I have worked on:</h3>
 			</div>
 
-			<div className="about__carousel">
-				<Swiper
-					modules={[Navigation, Pagination, A11y, Autoplay]}
-					a11y={{ enabled: true }}
-					centeredSlides={true}
-					spaceBetween={50}
-					slidesPerView={1}
-					navigation
-					pagination={{
-						clickable: true,
-					}}
-					autoplay={{
-						delay: 4000,
-						pauseOnMouseEnter: true,
-					}}
-					loop
-				>
-					{imageArray.map(createSlide)}
-				</Swiper>
-			</div>
+			<div className="about__card">{imageArray.map(createSlide)}</div>
 		</section>
 	);
 };

@@ -4,23 +4,19 @@
 	width: 100%;
 	max-width: 100%;
 
-	@media only screen and (min-width: 576px) {
+	@include media-breakpoint-up($sm) {
 		max-width: 540px;
 	}
 
-	@media only screen and (min-width: 768px) {
+	@include media-breakpoint-up($md) {
 		max-width: 720px;
 	}
 
-	@media only screen and (min-width: 992px) {
+	@include media-breakpoint-up($lg) {
 		max-width: 960px;
 	}
 
-	@media only screen and (min-width: 1200px) {
-		max-width: 1140px;
-	}
-
-	@media only screen and (min-width: 1200px) {
+	@include media-breakpoint-up($xl) {
 		max-width: 1320px;
 	}
 }
