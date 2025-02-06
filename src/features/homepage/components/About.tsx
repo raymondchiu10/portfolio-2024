@@ -1,9 +1,5 @@
 import { fileNameParserJpg } from "../../../shared/fileNameParserJpg";
 
-import "swiper/scss";
-import "swiper/scss/navigation";
-import "swiper/scss/pagination";
-
 import expopulus from "src/images/jpg/expopulus.jpg";
 import dags from "src/images/jpg/expopulus_dags.jpg";
 import finalForm from "src/images/jpg/expopulus_finalform.jpg";
