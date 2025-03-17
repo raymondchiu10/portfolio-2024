@@ -1,3 +1,6 @@
+@use "src/styles/utils/index" as *;
+@use "src/shared/box-shadow" as *;
+
 .xai-games-page {
 	position: relative;
 	min-height: 100dvh;

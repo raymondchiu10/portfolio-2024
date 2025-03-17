@@ -1,5 +1,5 @@
-@import "styles";
-@import "shared";
+@use "styles/index" as *;
+@use "shared/index" as *;
 @import "features";
 
 html {
