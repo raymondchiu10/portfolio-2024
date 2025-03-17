@@ -1,3 +1,5 @@
+@use "src/styles/utils/index" as *;
+
 .hero {
 	@extend .container !optional;
 

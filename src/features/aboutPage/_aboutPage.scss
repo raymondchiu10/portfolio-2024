@@ -1,3 +1,5 @@
+@use "src/shared/index" as *;
+
 .aboutPage {
 	@extend .container;
 	display: flex;

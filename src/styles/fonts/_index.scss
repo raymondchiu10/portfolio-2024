@@ -1,5 +1,10 @@
-@import "roboto";
-@import "archivo";
+@forward "roboto";
+@forward "archivo";
+
+@use "roboto";
+@use "archivo";
+
+@use "../utils/index" as *;
 
 a,
 p,

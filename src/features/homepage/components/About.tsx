@@ -1,40 +1,22 @@
 import { fileNameParserJpg } from "../../../shared/fileNameParserJpg";
 
 import expopulus from "src/images/jpg/expopulus.jpg";
-import dags from "src/images/jpg/expopulus_dags.jpg";
-import finalForm from "src/images/jpg/expopulus_finalform.jpg";
-import ironPigeons1 from "src/images/jpg/expopulus_ironpigeons.jpg";
 import frameOne1 from "src/images/jpg/frameonesoftware.jpg";
 import rxToMe from "src/images/jpg/rxtome.jpg";
 import xaiGames1 from "src/images/jpg/xaigames.jpg";
 import lolChampionViewer from "src/images/jpg/lolchampionviewer.jpg";
 
 import expopuluswebp from "src/images/webp/expopulus.webp";
-import dagswebp from "src/images/webp/expopulus_dags.webp";
-import finalFormwebp from "src/images/webp/expopulus_finalform.webp";
-import ironPigeons1webp from "src/images/webp/expopulus_ironpigeons.webp";
 import frameOne1webp from "src/images/webp/frameonesoftware.webp";
 import rxToMewebp from "src/images/webp/rxtome.webp";
 import xaiGames1webp from "src/images/webp/xaigames.webp";
 import lolChampionViewerwebp from "src/images/webp/lolchampionviewer.webp";
 import { useNavigate } from "react-router-dom";
 
-const imageArray = [
-	expopulus,
-	dags,
-	ironPigeons1,
-	finalForm,
-	xaiGames1,
-	frameOne1,
-	lolChampionViewer,
-	rxToMe,
-];
+const imageArray = [expopulus, xaiGames1, frameOne1, lolChampionViewer, rxToMe];
 
 const imageArrayWebp = [
 	expopuluswebp,
-	dagswebp,
-	ironPigeons1webp,
-	finalFormwebp,
 	xaiGames1webp,
 	frameOne1webp,
 	lolChampionViewerwebp,
