@@ -54,7 +54,7 @@ const AboutPage = () => {
 				<div className="aboutPage__cta">
 					<a
 						className="aboutPage__cta-button"
-						href="https://docs.google.com/document/d/1p9JCsUjgxn9nYOb0TxHlWLPagwbaR5rTnoHuJzXl8CY/edit?usp=sharing"
+						href="https://drive.google.com/file/d/1UZJVieFiVFGzZW2MWcJzFRLRVRgZbBfo/view"
 						target="_blank"
 						rel="noopener noreferrer"
 						draggable={false}
