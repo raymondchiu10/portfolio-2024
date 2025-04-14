@@ -1,6 +1,6 @@
 @use "styles/index" as *;
 @use "shared/index" as *;
-@import "features";
+@use "features" as *;
 
 html {
 	-webkit-box-sizing: border-box;
