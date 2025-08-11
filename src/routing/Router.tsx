@@ -7,6 +7,7 @@ import ExpopulusPage from "../features/projects/expopulus/ExpopulusPage";
 import FrameOneSoftwarePage from "../features/projects/frame-one-software/FrameOneSoftwarePage";
 import XaiGamgesPage from "../features/projects/xai-games/XaiGamesPage";
 import LolChampionViewerPage from "../features/projects/lol-champion-viewer/LolChampionViewerPage";
+import StockOverflowPage from "../features/projects/stock-overflow/StockOverflowPage";
 
 const router = createBrowserRouter([
 	{
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
 		path: "/projects",
 		element: <Layout />,
 		children: [
+			{
+				path: "stockoverflow",
+				element: <StockOverflowPage />,
+			},
 			{
 				path: "expopulus",
 				element: <ExpopulusPage />,

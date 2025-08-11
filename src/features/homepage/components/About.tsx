@@ -1,11 +1,13 @@
 import { fileNameParserJpg } from "../../../shared/fileNameParserJpg";
 
+import stockOverflow from "src/images/jpg/stockoverflow.jpg";
 import expopulus from "src/images/jpg/expopulus.jpg";
 import frameOne1 from "src/images/jpg/frameonesoftware.jpg";
 import rxToMe from "src/images/jpg/rxtome.jpg";
 import xaiGames1 from "src/images/jpg/xaigames.jpg";
 import lolChampionViewer from "src/images/jpg/lolchampionviewer.jpg";
 
+import stockOverflowwebp from "src/images/webp/stockoverflow.webp";
 import expopuluswebp from "src/images/webp/expopulus.webp";
 import frameOne1webp from "src/images/webp/frameonesoftware.webp";
 import rxToMewebp from "src/images/webp/rxtome.webp";
@@ -13,9 +15,17 @@ import xaiGames1webp from "src/images/webp/xaigames.webp";
 import lolChampionViewerwebp from "src/images/webp/lolchampionviewer.webp";
 import { useNavigate } from "react-router-dom";
 
-const imageArray = [expopulus, xaiGames1, frameOne1, lolChampionViewer, rxToMe];
+const imageArray = [
+	stockOverflow,
+	expopulus,
+	xaiGames1,
+	frameOne1,
+	lolChampionViewer,
+	rxToMe,
+];
 
 const imageArrayWebp = [
+	stockOverflowwebp,
 	expopuluswebp,
 	xaiGames1webp,
 	frameOne1webp,
