@@ -1,44 +1,30 @@
 export const fileNameParserJpg = (item: string) => {
 	const startWord = "jpg/";
-	const startString = item.indexOf(startWord);
-	const endString = item.indexOf(".jpg");
+	const endWord = ".jpg";
 
-	const baseProject = item
-		.slice(startString + startWord.length, endString)
-		.split(/sets\/|-.*$/)
-		.filter((item) => item !== "")[0]
-		.split("_")[0];
+	const startIndex = item.indexOf(startWord);
+	const endIndex = item.indexOf(endWord);
 
-	const projectName =
+	if (startIndex === -1 || endIndex === -1 || endIndex <= startIndex) {
+		return {
+			altString: "",
+			baseProject: "",
+			projectName: "",
+		};
+	}
+
+	// Extract just the core file name (between "jpg/" and ".jpg")
+	const coreName =
 		item
-			.slice(startString + startWord.length, endString)
+			.slice(startIndex + startWord.length, endIndex)
 			.split(/sets\/|-.*$/)
-			.filter((item) => item !== "")[0]
-			.split("_")[1] !== undefined
-			? item
-					.slice(startString + startWord.length, endString)
-					.split(/sets\/|-.*$/)
-					.filter((item) => item !== "")[0]
-					.split("_")[1]
-			: baseProject;
+			.filter(Boolean)[0] || "";
 
-	const altString = `${baseProject} ${
-		item
-			.slice(startString + startWord.length, endString)
-			.split(/sets\/|-.*$/)
-			.filter((item) => item !== "")[0]
-			.split("_")[1] !== undefined
-			? item
-					.slice(startString + startWord.length, endString)
-					.split(/sets\/|-.*$/)
-					.filter((item) => item !== "")[0]
-					.split("_")[1]
-			: ""
-	} project`;
+	// Split on underscore, if present
+	const [baseProject, projectNameRaw] = coreName.split("_");
 
-	return {
-		altString,
-		baseProject,
-		projectName,
-	};
+	const projectName = projectNameRaw ?? baseProject;
+	const altString = `${baseProject} ${projectNameRaw ? projectNameRaw + " " : ""}project`;
+
+	return { altString, baseProject, projectName };
 };
