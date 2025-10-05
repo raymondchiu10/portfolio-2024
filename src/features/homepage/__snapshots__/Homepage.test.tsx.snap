@@ -1,0 +1,153 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`home page render > renders the page 1`] = `
+<DocumentFragment>
+  <section
+    class="homepage"
+  >
+    <section
+      class="hero"
+    >
+      <div
+        class="hero__container"
+      >
+        <h2
+          class="hero__header"
+        >
+          Hey there, I'm Raymond
+        </h2>
+        <p
+          class="hero__subheader"
+        >
+          I'm a Fullstack Developer who enjoys bringing experiences and ideas to life.
+        </p>
+      </div>
+    </section>
+    <section
+      class="about"
+    >
+      <div
+        class="about__container"
+      >
+        <h3
+          class="about__header"
+        >
+          Projects I have worked on:
+        </h3>
+      </div>
+      <div
+        class="about__card"
+      >
+        <article
+          class="about__card-item"
+        >
+          <picture>
+            <source
+              srcset="/src/images/webp/stockoverflow.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="/src/images/jpg/stockoverflow.jpg"
+              type="image/jpeg"
+            />
+            <img
+              alt="stockoverflow project Screenshot"
+              src="/src/images/jpg/stockoverflow.jpg"
+            />
+          </picture>
+        </article>
+        <article
+          class="about__card-item"
+        >
+          <picture>
+            <source
+              srcset="/src/images/webp/expopulus.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="/src/images/jpg/expopulus.jpg"
+              type="image/jpeg"
+            />
+            <img
+              alt="expopulus project Screenshot"
+              src="/src/images/jpg/expopulus.jpg"
+            />
+          </picture>
+        </article>
+        <article
+          class="about__card-item"
+        >
+          <picture>
+            <source
+              srcset="/src/images/webp/xaigames.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="/src/images/jpg/xaigames.jpg"
+              type="image/jpeg"
+            />
+            <img
+              alt="xaigames project Screenshot"
+              src="/src/images/jpg/xaigames.jpg"
+            />
+          </picture>
+        </article>
+        <article
+          class="about__card-item"
+        >
+          <picture>
+            <source
+              srcset="/src/images/webp/frameonesoftware.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="/src/images/jpg/frameonesoftware.jpg"
+              type="image/jpeg"
+            />
+            <img
+              alt="frameonesoftware project Screenshot"
+              src="/src/images/jpg/frameonesoftware.jpg"
+            />
+          </picture>
+        </article>
+        <article
+          class="about__card-item"
+        >
+          <picture>
+            <source
+              srcset="/src/images/webp/lolchampionviewer.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="/src/images/jpg/lolchampionviewer.jpg"
+              type="image/jpeg"
+            />
+            <img
+              alt="lolchampionviewer project Screenshot"
+              src="/src/images/jpg/lolchampionviewer.jpg"
+            />
+          </picture>
+        </article>
+        <article
+          class="about__card-item"
+        >
+          <picture>
+            <source
+              srcset="/src/images/webp/rxtome.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="/src/images/jpg/rxtome.jpg"
+              type="image/jpeg"
+            />
+            <img
+              alt="rxtome project Screenshot"
+              src="/src/images/jpg/rxtome.jpg"
+            />
+          </picture>
+        </article>
+      </div>
+    </section>
+  </section>
+</DocumentFragment>
+`;
