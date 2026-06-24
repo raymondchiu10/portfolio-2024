@@ -4,7 +4,7 @@
 
 This is just a showcase of some professional projects I have helped develop.
 
-Link to project: [here](https://raymondchiu-portfolio.netlify.app/).
+Link to project: [here](https://raymond-chiu.ca).
 
 # How it's made:
 
